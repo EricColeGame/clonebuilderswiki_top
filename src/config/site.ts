@@ -36,6 +36,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.roblox.com/communities/2713252/Synoptic-Interactive",
     youtube: "https://www.youtube.com/results?search_query=Clone+Builders+Roblox+gameplay",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };
