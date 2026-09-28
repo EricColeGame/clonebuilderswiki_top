@@ -1,0 +1,145 @@
+export const metadata = {
+  title: "Clone-Builder-Befehle: Ein vollständiger Leitfaden zum sicheren Kopieren und Skalieren von Bauwerken",
+  description: "Erfahren Sie, wie Clone-Builder-Befehle funktionieren: Bereiten Sie eine saubere Quelle vor, wählen Sie das richtige Ziel, prüfen Sie Berechtigungen und validieren Sie jede Kopie, bevor Sie skalieren.",
+  category: "controls",
+  date: "2026-09-29",
+}
+
+Clone-Builder-Befehle können eine gute Bausitzung in ein wiederholbares Bausystem verwandeln. Anstatt bei jedem Außenposten dieselbe Lagerreihe, dasselbe Verteidigungstor oder denselben Produktionsblock manuell zu platzieren, benennen Sie ein fertiges Bauwerk einmal und reproduzieren es überall dort, wo Sie es benötigen. Das ist der ganze Reiz – und genau dabei verbrennen sich die meisten Spieler. Clone-Builder-Befehle kopieren exakt das, was Sie ihnen vorgeben – Fehler inklusive: defekte Maschinenverbindungen, übrig gebliebenes Gerüst, eine Tür, die auf eine massive Wand zeigt.
+
+Die gute Nachricht: Das Klonen ist nicht mehr kompliziert, sobald Sie es als kontrollierten Bauvorgang behandeln und nicht als magischen Knopf. Bereiten Sie eine saubere Quelle vor, wählen Sie ein Ziel mit ausreichend Platz, bestätigen Sie Ihre Berechtigungsstufe und validieren Sie die Kopie, bevor Sie eine zweite erstellen. Dieser Leitfaden führt Schritt für Schritt durch diesen Workflow und zeigt die Lösungen für die Fehler, auf die Spieler am häufigsten stoßen.
+
+## Was Clone-Builder-Befehle tatsächlich tun
+
+Im Kern beantwortet ein Clone-Befehl eine Frage: Welche benannte Struktur soll an welcher Stelle erscheinen? Alles andere – Drehung, Grundfläche, Besitz, verbundene Maschinen – ist entweder etwas, das Sie bewusst steuern, oder etwas, das Sie versehentlich erben. Das Verständnis dieser Trennung unterscheidet einen Baumeister, der selbstbewusst klont, von einem, der ständig fehlgeschlagene Duplikate aufräumt.
+
+Die meisten Fehlschläge beim Klonen lassen sich auf eines von vier Elementen zurückführen, und bei jedem gibt es etwas Bestimmtes, das Sie vor dem Bestätigen doppelt prüfen sollten.
+
+| Befehlselement | Was es bewirkt | Was zu prüfen ist |
+| --- | --- | --- |
+| Quelle | Identifiziert die zu kopierende Struktur | Genaue Schreibweise, Groß-/Kleinschreibung und eine eindeutige Bezeichnung |
+| Ziel | Legt fest, wo die Kopie erscheint | Freier Untergrund, gültiger Platzierungspunkt, ausreichende Grundfläche |
+| Berechtigung | Entscheidet, ob der Befehl überhaupt ausgeführt wird | Ihre Rolle auf dem Server oder in der gemeinsamen Bauzone |
+| Validierung | Bestätigt, dass die Kopie tatsächlich nutzbar ist | Teile, Verbindungen, Besitz, Ausrichtung, Ressourcenverhalten |
+
+### Warum Vorbereitung vor Schnelligkeit geht
+
+Ein Klon ist kein kreatives Werkzeug; er ist ein Vervielfältigungswerkzeug. Diese Unterscheidung ist wichtig, denn Vervielfältigung multipliziert Fehler genauso effizient wie gutes Design.
+
+- Ein fehlendes Kabel in der Quelle wird zu einem fehlenden Kabel in jeder Kopie.
+- Ein übrig gebliebener temporärer Marker wird in Produktionslayouts übernommen.
+- Eine Struktur, die nur „so halb“ funktioniert, wird im großen Maßstab versagen.
+- Zwanzig schlechte Kopien zu reparieren dauert weit länger, als eine Quelle zu reparieren.
+
+Berichte aus der Community von gemeinsamen Bauservern zeigen immer wieder dieselbe Lektion: Die Spieler, die am schnellsten klonen, sind diejenigen, die zuerst fünf zusätzliche Minuten damit verbracht haben, die Quelle zu bereinigen.
+
+## So bereiten Sie eine Quellstruktur vor, die es wert ist, kopiert zu werden
+
+Die leistungsfähigsten Clone-Builder-Befehle setzen auf eine Quelle, die klein, fertig und unter normalen Bedingungen getestet ist. Wenn Ihr Design von verbundenen Maschinen, dekorativen Ankern oder interaktiven Komponenten abhängt, überprüfen Sie jede Beziehung, bevor Sie irgendetwas duplizieren.
+
+Folgen Sie dieser Vorbereitungsreihenfolge, und Sie werden die meisten fehlgeschlagenen Platzierungen ausschließen, bevor sie passieren.
+
+1. **Bauen Sie die kleinste nützliche Version.** Nehmen Sie nur die Teile auf, die die Struktur zum Funktionieren braucht: Produktionsmodule, Lagerung, Zugangswege, Verteidigungsabschnitte.
+2. **Entfernen Sie temporäre Teile.** Gerüste, Testmarker und halbfertige Dekoration sollten niemals in einen Klon übernommen werden.
+3. **Geben Sie ihm einen eindeutigen, zweckorientierten Namen.** Eine Bezeichnung wie `StarterHub` oder `OreLineA` ist sofort erkennbar; `Build1` nicht.
+4. **Testen Sie die Quelle, bevor Sie sie kopieren.** Aktivieren Sie jedes verbundene Element und bestätigen Sie das erwartete Verhalten. Fehler im Original erscheinen in jeder Kopie.
+5. **Halten Sie die beabsichtigte Ausrichtung fest.** Notieren Sie, welche Seite zum Eingang, zur Ressourcenroute oder zur Verteidigungsspur zeigt, damit Rotationstests vorhersehbar bleiben.
+
+| Vorbereitungsprüfung | Bereitschaftsbedingung | Häufiger Fehler |
+| --- | --- | --- |
+| Strukturname | Eindeutig und leicht zu tippen | Fast identische Namen führen zu falschen Auswahlen |
+| Interne Verbindungen | Alle erforderlichen Verbindungen funktionieren | Kopierte Abschnitte erscheinen getrennt |
+| Grundfläche | Vor der Platzierung gemessen | Zielbereich erweist sich als zu klein |
+| Ausrichtung | Vorder- und Rückseite sind klar erkennbar | Kopie zeigt in die falsche Richtung |
+| Temporäre Teile | Entfernt oder klar markiert | Dekoratives Gerüst wird dupliziert |
+
+Wenn ein Bauwerk mehrere unabhängige Module enthält, klonen Sie sie separat. Ein Produktionsblock, ein Lagerblock und ein Eingangsbereich können jeweils einzeln getestet werden, bevor sie zu einem größeren Layout kombiniert werden. Wenn etwas nicht funktioniert, wissen Sie genau, welches Modul dafür verantwortlich war.
+
+Da sich die Befehlswortwahl zwischen Versionen, privaten Servern und benutzerdefinierten Regelsätzen unterscheiden kann, bestätigen Sie immer die Syntax in Ihrer aktuellen Umgebung, anstatt anzunehmen, dass ein älteres Format noch gültig ist. Die [Clone-Builders-Wiki-Referenz zum Befehlsklonen](https://www.clonebuilderswiki.wiki/clones/clone-builders-command-clones) ist ein vernünftiger Ausgangspunkt, aber die Befehlsliste im Spiel ist die letzte Instanz.
+
+## Der schrittweise Befehls-Workflow
+
+Ein planvoller Workflow ist jeder Improvisation überlegen. Bestätigen Sie vor der Ausführung Quelle und Ziel. Achten Sie während der Ausführung auf Berechtigungsmeldungen oder Platzierungswarnungen. Inspizieren Sie die Kopie nach der Ausführung aus mehreren Blickwinkeln, anstatt sich auf einen einzigen Blick zu verlassen.
+
+1. **Öffnen Sie die Befehlsschnittstelle.** Stellen Sie sicher, dass Sie sich im richtigen Modus oder Berechtigungskontext befinden, bevor Sie etwas eingeben.
+2. **Wählen Sie die Quelle aus.** Geben Sie den exakten Namen ein oder wählen Sie die Struktur aus dem Menü und prüfen Sie anschließend Groß-/Kleinschreibung, Abstände und doppelte Bezeichnungen erneut.
+3. **Wählen Sie das Ziel.** Begeben Sie sich zu einem freien Zielort und bestimmen Sie den Platzierungspunkt, wobei Sie Platz für die gesamte Grundfläche einschließlich Überhängen und verbundener Module lassen.
+4. **Wenden Sie optionale Einstellungen an – eine nach der anderen.** Testen Sie eine einzelne Drehung oder Spiegelanpassung, damit Sie erkennen können, was sich geändert hat, falls etwas schiefgeht.
+5. **Inspizieren und bestätigen.** Prüfen Sie die Kopie von vorne, hinten und den Seiten und aktivieren Sie dann Türen, Lagerung und Produktionsverbindungen, um nachzuweisen, dass sie funktionieren.
+
+| Workflow-Phase | Aktion | Erfolgssignal |
+| --- | --- | --- |
+| Auswahl | Die richtige Quelle identifizieren | Die beabsichtigte Struktur wird benannt oder hervorgehoben |
+| Platzierung | Ein klares Ziel wählen | Es erscheint keine Kollisions- oder Grenzwarnung |
+| Optionen | Eine getestete Anpassung anwenden | Die Ausrichtung ändert sich genau wie erwartet |
+| Überprüfung | Die kopierte Struktur begehen | Teile, Verbindungen und Zugangswege verhalten sich normal |
+
+Vermeiden Sie blinde Wiederholungen. Denselben fehlschlagenden Befehl fünfmal hintereinander auszuführen, erzeugt überlappende Teile, blockierte Korridore und eine Aufräumaufgabe. Wenn ein Befehl fehlschlägt, ändern Sie jeweils eine Variable – erst den Quellnamen, dann das Ziel, dann die Berechtigungen, dann optionale Einstellungen. Diese Reihenfolge verhindert, dass Sie mehrere mögliche Ursachen gleichzeitig jonglieren müssen.
+
+Eine kurze Befehlsnotiz zahlt sich später ebenfalls aus. Notieren Sie den Quellnamen, das beabsichtigte Ziel, die Drehungseinstellung, die erforderliche Berechtigungsstufe, die erwartete Grundfläche und das Validierungsergebnis.
+
+## Fehlerbehebung bei Clone-Builder-Befehlen
+
+Die meisten Probleme fallen in vier Kategorien: Auswahlfehler, Platzierungskonflikte, Berechtigungsgrenzen und unvollständige Verbindungen. Die richtige Lösung hängt davon ab, was Sie tatsächlich beobachten. Beginnen Sie daher mit dem kleinstmöglichen Test, anstatt Ihr gesamtes Bauwerk auseinanderzunehmen.
+
+| Symptom | Wahrscheinliche Ursache | Empfohlene Lösung |
+| --- | --- | --- |
+| Es erscheint überhaupt nichts | Ungültige Quelle oder verweigerte Berechtigung | Überprüfen Sie den Namen und Ihre Zugriffsstufe erneut |
+| Kopie landet an der falschen Stelle | Problem mit Zielpunkt oder Ausrichtung | Verwenden Sie einen markierten Testbereich und setzen Sie die Drehung zurück |
+| Teile überlappen bestehende Bauwerke | Zielgrundfläche ist zu klein | Räumen Sie einen größeren Bereich frei, bevor Sie es erneut versuchen |
+| Maschinen bleiben inaktiv | Verbindungen wurden nicht beibehalten | Verbinden Sie Komponenten neu oder klonen Sie Module separat |
+| Es erscheinen immer wieder zusätzliche Duplikate | Befehl wurde mehrfach ausgelöst | Stoppen Sie, entfernen Sie die Extras und führen Sie dann einen sauberen Test aus |
+
+Eine praktische Diagnosereihenfolge hält die Fehlerbehebung kurz:
+
+- **Berechtigung** – Kann Ihre Rolle den Befehl ausführen?
+- **Quellidentität** – Ist der Name exakt und eindeutig?
+- **Zielbereich** – Ist der Untergrund frei und bearbeitbar?
+- **Ausrichtung** – Zeigt die Kopie in die Richtung, die Sie benötigen?
+- **Interne Verbindungen** – Funktionieren die verbundenen Systeme noch?
+
+Manche Strukturen enthalten Elemente, die einfach nicht dupliziert werden sollten, insbesondere temporäre Marker oder interaktive Komponenten, die an einen bestimmten Ort gebunden sind. Wenn ein Klon die Hülle eines Gebäudes, aber nicht sein Verhalten erzeugt, bauen Sie die funktionale Verbindung nach der Platzierung neu auf. In gemeinsamen Bauzonen sollten Sie außerdem die Besitzregeln bestätigen – eine Struktur kann perfekt aussehen und dennoch für andere Baumeister unbrauchbar sein oder Berechtigungen erben, die nicht zum Zielbereich passen.
+
+## Fortgeschrittene Clone-Strategien und Sicherheit
+
+Sobald sich der grundlegende Workflow routiniert anfühlt, wird das Klonen zu einem Skalierungswerkzeug. Anstatt eine gesamte Basis zu duplizieren, kopieren Sie nur die Abschnitte, die von Konsistenz profitieren, und platzieren Sie einzigartige Wahrzeichen und standortspezifische Versorgungseinrichtungen von Hand.
+
+| Strategie | Bester Anwendungsfall | Hauptrisiko |
+| --- | --- | --- |
+| Modulares Klonen | Große Basen mit wiederholten Funktionen | Module lassen sich möglicherweise nicht sauber ausrichten |
+| Symmetrisches Klonen | Ausgewogene Wände, Räume oder Spuren | Drehfehler werden schnell offensichtlich |
+| Vorlagenklonen | Standard-Startlayouts | Kopien können unnötige Teile enthalten |
+| Phasenweises Klonen | Projekte, die über mehrere Phasen gebaut werden | Spätere Phasen können früheren Zugang blockieren |
+| Klonen im Testbereich | Erlernen neuer Befehlsoptionen | Ergebnisse können in eingeschränkten Zonen abweichen |
+
+Module, die sich gut klonen lassen, sind unter anderem Ressourcenverarbeitungslinien, Lager- und Sortierblöcke, Verteidigungstore, Wohn- oder Versorgungsreihen, Transportkorridore und dekorative Eingangsbereiche.
+
+### Sicherheitscheckliste für Clone-Befehle
+
+- Stellen Sie sicher, dass die Quellstruktur einen eindeutigen, beschreibenden Namen hat.
+- Testen Sie den Befehl zuerst in einem offenen Bereich mit geringem Risiko.
+- Überprüfen Sie die Berechtigungen, bevor Sie den Klon auf ein gemeinsames Bauwerk anwenden.
+- Prüfen Sie Ausrichtung, Kollision, Besitz und Verbindungen.
+- Entfernen Sie fehlgeschlagene Kopien, bevor Sie eine weitere Version erstellen.
+
+Verwenden Sie Versionsbezeichnungen wie `DefenseGateV1` und `DefenseGateV2`, während Sie Verbesserungen iterieren, und halten Sie die stabile Version verfügbar, bis der Ersatz die Inspektion besteht. Widerstehen Sie außerdem der Versuchung, ein Dutzend Duplikate zu erzeugen, bevor Sie das erste validiert haben. Ein erfolgreicher Test sollte mehr beweisen als die visuelle Platzierung: Die Struktur sollte an ihrem neuen Standort betretbar, bedienbar, verbindbar und wartbar sein.
+
+## FAQ: Clone-Builder-Befehle
+
+**Wofür werden Clone-Builder-Befehle verwendet?**
+
+Sie reproduzieren eine getestete Struktur an einem anderen Ort, wodurch wiederholtes Bauen entfällt. Das genaue Format und die verfügbaren Optionen hängen von Ihrer aktuellen Clone-Builders-Umgebung ab. Prüfen Sie daher immer die Befehlsreferenz im Spiel.
+
+**Warum erscheint ein Klon, funktioniert aber nicht?**
+
+Die visuellen Teile wurden erfolgreich kopiert, die internen Verbindungen jedoch nicht. Maschinen, Lagerverbindungen und interaktive Komponenten müssen nach der Platzierung oft manuell neu verbunden werden. Das separate Klonen von Modulen erleichtert in der Regel die Diagnose.
+
+**Wie verhindere ich doppelte oder falsch platzierte Kopien?**
+
+Verwenden Sie einen markierten Testbereich, bestätigen Sie Quellname und Ziel, führen Sie einen Befehl aus und inspizieren Sie das Ergebnis, bevor Sie ihn wiederholen. Wenn der Befehl fehlschlägt, löschen Sie alle Teilkopien, bevor Sie es erneut versuchen.
+
+**Sollte ich eine gesamte Basis klonen oder nur einzelne Module?**
+
+Einzelne Module lassen sich leichter testen, aktualisieren und Fehler beheben. Klonen Sie eine komplette Basis nur, wenn das Layout stabil ist, der Zielbereich genügend Freiraum bietet und die Besitzregeln überprüft wurden.
+
+Der stärkste Workflow ist zugleich der einfachste: Bauen Sie eine saubere Quelle, testen Sie eine Kopie, validieren Sie jede Verbindung und skalieren Sie erst, wenn sich das Ergebnis als zuverlässig erwiesen hat. Speichern Sie einen kurzen Baubericht für jede Struktur – Quellname, beabsichtigte Nutzung, Ausrichtung, Grundfläche und Validierungsnotizen – und ein einmaliger Befehl wird zu einer wiederholbaren Baumethode, der Sie vertrauen können, während Ihre Basis wächst.

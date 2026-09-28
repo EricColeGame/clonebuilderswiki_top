@@ -1,0 +1,145 @@
+export const metadata = {
+  title: "Comandos de Clone Builders: Una guía completa para copiar y escalar construcciones de forma segura",
+  description: "Aprende cómo funcionan los comandos de Clone Builders: prepara una fuente limpia, elige el objetivo correcto, verifica los permisos y valida cada copia antes de escalar.",
+  category: "controls",
+  date: "2026-09-29",
+}
+
+Los comandos de Clone Builders pueden convertir una buena sesión de construcción en un sistema de construcción repetible. En lugar de colocar a mano la misma fila de almacenamiento, puerta defensiva o bloque de producción en cada puesto avanzado, nombras una estructura terminada una vez y la reproduces donde la necesites. Ese es todo el atractivo, y también es donde la mayoría de los jugadores se quema. Los comandos de Clone Builders copian exactamente lo que les das, defectos incluidos: enlaces de máquinas rotos, andamios sobrantes, una puerta frente a una pared sólida.
+
+La buena noticia es que clonar deja de ser complicado en el momento en que lo tratas como una operación de construcción controlada en lugar de un botón mágico. Prepara una fuente limpia, elige un objetivo con espacio de sobra, confirma tu nivel de permiso y luego valida la copia antes de hacer una segunda. Esta guía recorre ese flujo de trabajo paso a paso, junto con las soluciones para los errores con los que los jugadores se topan con más frecuencia.
+
+## Qué hacen realmente los comandos de Clone Builders
+
+En esencia, un comando de clonación responde una pregunta: ¿qué estructura nombrada debe aparecer en qué ubicación? Todo lo demás —rotación, huella, propiedad, máquinas conectadas— es algo que controlas deliberadamente o algo que heredas por accidente. Entender esa división es lo que separa a un constructor que clona con confianza de uno que no deja de limpiar duplicados fallidos.
+
+La mayoría de los fallos de clonación se remontan a uno de cuatro elementos, y cada uno tiene algo específico que vale la pena verificar dos veces antes de confirmar.
+
+| Elemento del comando | Qué hace | Qué verificar |
+| --- | --- | --- |
+| Fuente | Identifica la estructura que se va a copiar | Ortografía exacta, mayúsculas y minúsculas, y una etiqueta única |
+| Objetivo | Define dónde aparece la copia | Terreno despejado, punto de colocación válido, huella suficiente |
+| Permiso | Decide si el comando se ejecuta o no | Tu rol en el servidor o en la zona de construcción compartida |
+| Validación | Confirma que la copia es realmente utilizable | Piezas, enlaces, propiedad, orientación, comportamiento de los recursos |
+
+### Por qué la preparación vence a la velocidad
+
+Un clon no es una herramienta creativa; es una herramienta de duplicación. Esa distinción importa, porque la duplicación multiplica los errores con la misma eficiencia con la que multiplica un buen diseño.
+
+- Un cable faltante en la fuente se convierte en un cable faltante en cada copia.
+- Un marcador temporal que se deja en su sitio queda estampado en los diseños de producción.
+- Una estructura que solo "más o menos" funciona fallará a escala.
+- Arreglar veinte copias defectuosas lleva mucho más tiempo que arreglar una sola fuente.
+
+Los informes de la comunidad en servidores de construcción compartida apuntan sistemáticamente a la misma lección: los jugadores que clonan más rápido son los que dedicaron cinco minutos extra a limpiar primero la fuente.
+
+## Cómo preparar una estructura fuente que merezca la pena copiar
+
+Los comandos de Clone Builders más sólidos dependen de una fuente que sea pequeña, esté terminada y se haya probado en condiciones normales. Si tu diseño depende de máquinas conectadas, anclajes decorativos o componentes interactivos, verifica cada relación antes de duplicar nada.
+
+Sigue esta secuencia de preparación y eliminarás la mayoría de las colocaciones fallidas antes de que ocurran.
+
+1. **Construye la versión útil más pequeña.** Incluye solo las partes que la estructura necesita para funcionar: módulos de producción, almacenamiento, rutas de acceso, secciones defensivas.
+2. **Elimina las piezas temporales.** Los andamios, marcadores de prueba y decoraciones a medio terminar nunca deberían sobrevivir en un clon.
+3. **Dale un nombre único y orientado a un propósito.** Una etiqueta como `StarterHub` u `OreLineA` se reconoce al instante; `Build1` no.
+4. **Ejecuta la fuente antes de copiarla.** Activa cada elemento conectado y confirma el comportamiento que esperas. Los fallos del original aparecerán en cada copia.
+5. **Registra la orientación prevista.** Anota qué lado mira hacia la entrada, la ruta de recursos o el carril defensivo para que las pruebas de rotación sigan siendo predecibles.
+
+| Comprobación de preparación | Condición de listo | Fallo común |
+| --- | --- | --- |
+| Nombre de la estructura | Único y fácil de escribir | Nombres casi idénticos provocan selecciones incorrectas |
+| Enlaces internos | Todas las conexiones necesarias funcionan | Las secciones copiadas aparecen desconectadas |
+| Huella | Medida antes de la colocación | El área objetivo resulta ser demasiado pequeña |
+| Orientación | El frente y la parte trasera son claramente identificables | La copia mira en la dirección equivocada |
+| Piezas temporales | Eliminadas o claramente señaladas | Los andamios decorativos se duplican |
+
+Si una construcción contiene varios módulos independientes, clónalos por separado. Un bloque de producción, un bloque de almacenamiento y una sección de entrada pueden probarse cada uno por su cuenta antes de combinarlos en un diseño más grande. Cuando algo se rompa, sabrás exactamente qué módulo lo causó.
+
+Como la redacción de los comandos puede variar entre versiones, servidores privados y conjuntos de reglas personalizadas, confirma siempre la sintaxis en tu entorno actual en lugar de asumir que un formato más antiguo sigue siendo válido. La [referencia de comandos de clonación de Clone Builders Wiki](https://www.clonebuilderswiki.wiki/clones/clone-builders-command-clones) es un punto de partida razonable, pero la lista de comandos del juego es la autoridad final.
+
+## El flujo de trabajo de comandos paso a paso
+
+Un flujo de trabajo deliberado vence a la improvisación todas las veces. Antes de ejecutar, confirma la fuente y el objetivo. Durante la ejecución, presta atención a los mensajes de permisos o advertencias de colocación. Después de ejecutar, inspecciona la copia desde múltiples ángulos en lugar de confiar en un solo vistazo.
+
+1. **Abre la interfaz de comandos.** Asegúrate de estar en el modo o contexto de permisos correcto antes de escribir nada.
+2. **Selecciona la fuente.** Introduce el nombre exacto o elige la estructura en el menú, luego vuelve a revisar mayúsculas, espaciado y etiquetas duplicadas.
+3. **Elige el objetivo.** Muévete a un destino abierto e identifica el punto de colocación, dejando espacio libre para toda la huella, incluidos los voladizos y los módulos conectados.
+4. **Aplica ajustes opcionales, uno a la vez.** Prueba una sola rotación o ajuste de espejo para que puedas saber qué cambió si algo sale mal.
+5. **Inspecciona y confirma.** Revisa la copia desde el frente, la parte trasera y los lados, luego activa puertas, almacenamiento y enlaces de producción para comprobar que funcionan.
+
+| Etapa del flujo de trabajo | Acción | Señal de éxito |
+| --- | --- | --- |
+| Selección | Identifica la fuente correcta | La estructura deseada se nombra o se resalta |
+| Colocación | Elige un destino despejado | No aparece ninguna advertencia de colisión o límite |
+| Opciones | Aplica un ajuste probado | La orientación cambia exactamente como se esperaba |
+| Revisión | Recorre la estructura copiada | Las piezas, los enlaces y las rutas de acceso se comportan con normalidad |
+
+Evita la repetición a ciegas. Ejecutar el mismo comando fallido cinco veces seguidas produce piezas superpuestas, pasillos bloqueados y una tarea de limpieza. Cuando un comando falle, cambia una variable a la vez: primero el nombre de la fuente, luego el destino, después los permisos y por último los ajustes opcionales. Ese orden evita que tengas que hacer malabares con varias causas posibles a la vez.
+
+Llevar una breve nota de comandos también da sus frutos más adelante. Registra el nombre de la fuente, el destino previsto, el ajuste de rotación, el nivel de permiso requerido, la huella esperada y el resultado de la validación.
+
+## Solución de problemas de los comandos de Clone Builders
+
+La mayoría de los problemas encajan en cuatro categorías: errores de selección, conflictos de colocación, límites de permisos y conexiones incompletas. La solución correcta depende de lo que observes realmente, así que empieza con la prueba más pequeña posible en lugar de desmontar toda tu construcción.
+
+| Síntoma | Causa probable | Solución recomendada |
+| --- | --- | --- |
+| No aparece nada en absoluto | Fuente no válida o permiso denegado | Vuelve a revisar el nombre y tu nivel de acceso |
+| La copia aterriza en el lugar equivocado | Problema con el punto objetivo o la orientación | Usa un área de prueba marcada y restablece la rotación |
+| Las piezas se superponen a construcciones existentes | La huella objetivo es demasiado pequeña | Despeja un área más amplia antes de volver a intentarlo |
+| Las máquinas permanecen inactivas | No se conservaron los enlaces | Vuelve a conectar los componentes o clona los módulos por separado |
+| Aparecen duplicados adicionales | El comando se ejecutó varias veces | Detente, elimina los extras y luego ejecuta una prueba limpia |
+
+Un orden de diagnóstico práctico mantiene la solución de problemas breve:
+
+- **Permiso** — ¿tu rol puede ejecutar el comando?
+- **Identidad de la fuente** — ¿el nombre es exacto y único?
+- **Espacio de destino** — ¿el terreno está despejado y es editable?
+- **Orientación** — ¿la copia mira en la dirección que necesitas?
+- **Enlaces internos** — ¿los sistemas conectados siguen funcionando?
+
+Algunas estructuras contienen elementos que simplemente no deberían duplicarse, en particular marcadores temporales o componentes interactivos vinculados a una ubicación específica. Si un clon produce el armazón de un edificio pero no su comportamiento, reconstruye la conexión funcional después de la colocación. En zonas de construcción compartidas, confirma también las reglas de propiedad: una estructura puede verse perfecta y seguir siendo inutilizable para otros constructores, o heredar permisos que no coinciden con el área objetivo.
+
+## Estrategias avanzadas de clonación y seguridad
+
+Una vez que el flujo de trabajo básico se vuelve rutinario, la clonación se convierte en una herramienta de escalado. En lugar de duplicar una base entera, copia solo las secciones que se benefician de la consistencia, y coloca a mano los puntos de referencia únicos y los servicios específicos de cada ubicación.
+
+| Estrategia | Mejor caso de uso | Riesgo principal |
+| --- | --- | --- |
+| Clonación modular | Bases grandes con funciones repetidas | Los módulos pueden no alinearse limpiamente |
+| Clonación simétrica | Muros, salas o carriles equilibrados | Los errores de rotación se vuelven obvios rápidamente |
+| Clonación de plantillas | Diseños iniciales estándar | Las copias pueden incluir piezas innecesarias |
+| Clonación por etapas | Proyectos construidos en varias fases | Las fases posteriores pueden bloquear el acceso anterior |
+| Clonación en área de prueba | Aprender nuevas opciones de comandos | Los resultados pueden diferir en zonas restringidas |
+
+Los módulos que suelen clonarse bien incluyen líneas de procesamiento de recursos, bloques de almacenamiento y clasificación, puertas defensivas, filas de viviendas o servicios, corredores de transporte y secciones de entrada decorativas.
+
+### Lista de comprobación de seguridad de comandos de clonación
+
+- Confirma que la estructura fuente tenga un nombre único y descriptivo.
+- Prueba el comando primero en un área abierta y de bajo riesgo.
+- Verifica los permisos antes de aplicar el clon a una construcción compartida.
+- Comprueba orientación, colisión, propiedad y conexiones.
+- Elimina las copias fallidas antes de crear otra versión.
+
+Usa etiquetas de versión como `DefenseGateV1` y `DefenseGateV2` mientras iteras mejoras, y mantén disponible la versión estable hasta que el reemplazo pase la inspección. Además, resiste la tentación de producir una docena de duplicados antes de validar el primero. Una prueba exitosa debe demostrar más que la colocación visual: la estructura debe poder recorrerse, operarse, conectarse y mantenerse en su nueva ubicación.
+
+## Preguntas frecuentes: comandos de Clone Builders
+
+**¿Para qué se usan los comandos de Clone Builders?**
+
+Reproducen una estructura probada en una ubicación diferente, lo que elimina la construcción repetitiva. El formato exacto y las opciones disponibles dependen de tu entorno actual de Clone Builders, así que consulta siempre la referencia de comandos del juego.
+
+**¿Por qué aparece un clon pero no funciona?**
+
+Las partes visuales se copiaron correctamente, pero las conexiones internas no. Las máquinas, los enlaces de almacenamiento y los componentes interactivos a menudo necesitan reconectarse manualmente después de la colocación. Clonar los módulos por separado suele facilitar el diagnóstico.
+
+**¿Cómo evito copias duplicadas o mal colocadas?**
+
+Usa un área de prueba marcada, confirma el nombre de la fuente y el destino, ejecuta un solo comando e inspecciona el resultado antes de repetirlo. Si el comando falla, elimina las copias parciales antes de volver a intentarlo.
+
+**¿Debería clonar una base entera o solo módulos separados?**
+
+Los módulos separados son más fáciles de probar, actualizar y solucionar. Clona una base completa solo cuando el diseño sea estable, el área objetivo tenga suficiente espacio libre y se hayan verificado las reglas de propiedad.
+
+El flujo de trabajo más sólido también es el más simple: construye una fuente limpia, prueba una copia, valida cada conexión y escala solo después de que el resultado demuestre ser fiable. Guarda un breve registro de construcción para cada estructura —nombre de la fuente, uso previsto, orientación, huella y notas de validación— y un comando puntual se convierte en un método de construcción repetible en el que puedes confiar a medida que crece tu base.

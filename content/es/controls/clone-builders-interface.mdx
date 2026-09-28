@@ -1,0 +1,160 @@
+export const metadata = {
+  title: "Guía de la interfaz de clonación para constructores: domina los clones por comando, la colocación y la validación",
+  description: "Domina la interfaz de clonación para constructores con un flujo de trabajo paso a paso, comprobaciones de permisos, consejos de colocación y soluciones de problemas para copias más limpias.",
+  category: "controls",
+  date: "2026-09-29",
+}
+
+## Por qué la interfaz de clonación para constructores decide tu resultado
+
+Cada intento de clonación fallido cuesta tiempo que podrías haber dedicado a construir y, en la mayoría de los casos, la culpa está en cómo usaste la **interfaz de clonación para constructores** y no en el comando en sí. Una **interfaz de clonación para constructores** bien entendida convierte un experimento arriesgado y puntual en un método de construcción repetible en el que puedes confiar en cada nuevo diseño. Eso importa porque una copia que parece correcta pero no se puede entrar, alimentar ni conectar es peor que no tener copia alguna.
+
+La mayoría de los jugadores culpa al comando cuando una clonación falla. En la práctica, la interfaz hace exactamente lo que se le indicó: copió la fuente que seleccionaste, en el lugar que elegiste, con la rotación que aplicaste. Entender cada control —y el orden en que lo tocas— es la forma más rápida de dejar de repetir errores.
+
+Esta guía recorre los paneles de la interfaz, una rutina de preparación fiable, un flujo de ejecución limpio y el orden de diagnóstico que aísla problemas en segundos. Se mantiene general a propósito, porque los menús, las etiquetas y los nombres de opciones cambian entre versiones, servidores privados y conjuntos de reglas personalizados. Comprueba siempre contra la referencia de comandos de tu propio entorno.
+
+## Dentro de la interfaz: qué hace realmente cada control
+
+La interfaz es más fácil de aprender si la piensas como cuatro decisiones en lugar de un solo comando.
+
+| Área de la interfaz | Qué controla | Qué verificar |
+| --- | --- | --- |
+| Selector de fuente | Qué estructura se copia | Nombre exacto, ortografía, visibilidad |
+| Colocación del objetivo | Dónde aparece la copia | Espacio libre, suelo editable, punto de anclaje válido |
+| Opciones de rotación y espejo | Orientación de la copia | Cara frontal, lado de entrada, dirección del carril |
+| Indicador de permisos | Si tu rol puede ejecutarlo | Nivel de acceso de constructor, moderador o servidor |
+
+### Panel de selección de fuente
+
+Aquí es donde empiezan la mayoría de los errores. El selector coincide con lo que escribes o clicas, no con lo que querías. Si dos estructuras comparten una etiqueta similar, la interfaz puede tomar la incorrecta. Los nombres cortos, únicos y basados en su propósito solucionan esto de forma permanente.
+
+### Controles de objetivo y colocación
+
+La colocación es una decisión de huella, no una decisión del cursor. Antes de confirmar, recorre el perímetro del destino previsto y calcula la huella completa, incluyendo voladizos, caminos y cualquier módulo conectado que se extienda más allá del cuerpo principal.
+
+### Ajustes de orientación
+
+La rotación es el control más subestimado. Una copia rotada a menudo sigue pareciendo convincente desde un ángulo mientras mira por completo en la dirección funcional equivocada. Prueba la rotación primero en una estructura desechable para que aprendas cómo la interfaz informa del cambio.
+
+| Señal común de la interfaz | Qué suele significar | Tu siguiente paso |
+| --- | --- | --- |
+| Estructura resaltada o nombrada | Fuente aceptada | Pasa a seleccionar el objetivo |
+| Aviso de colisión o límite | Destino demasiado ajustado | Despeja un área más grande |
+| Rechazo silencioso | Permiso o nombre no válido | Revisa el nivel de acceso y luego la ortografía |
+| La copia aparece sin mensaje | Comando aceptado | Inspecciona antes de ejecutar cualquier otra cosa |
+
+## Preparar una fuente antes de abrir la interfaz
+
+Una clonación fiable empieza mucho antes de abrir cualquier menú. Los informes de la comunidad muestran de forma consistente que las colocaciones fallidas se remontan a una fuente desordenada, no a un comando roto. Prepara en este orden:
+
+1. Construye la versión más pequeña que aún haga el trabajo: línea de producción, bloque de almacenamiento, ruta de acceso o sección defensiva.
+2. Elimina andamios, marcadores y piezas temporales que no quieras duplicar.
+3. Dale a la estructura un nombre corto, único y basado en su propósito.
+4. Ejecuta la fuente en condiciones normales y confirma que cada elemento conectado funcione.
+5. Anota la orientación prevista: qué lado mira hacia la entrada, la ruta de recursos o el carril defensivo.
+
+| Comprobación de preparación | Condición de preparado | Problema típico si se omite |
+| --- | --- | --- |
+| Nombre de la estructura | Único y fácil de escribir | Se selecciona la estructura equivocada |
+| Enlaces internos | Cada conexión funciona | La copia aparece desconectada |
+| Huella | Medida de antemano | Área objetivo demasiado pequeña |
+| Orientación | Frontal y trasera identificables | La copia mira hacia el lado equivocado |
+| Piezas temporales | Eliminadas o claramente marcadas | Andamios duplicados por todas partes |
+
+Hay una ventaja real en clonar módulos por separado. Un bloque de producción, un bloque de almacenamiento y un bloque de entrada pueden validarse cada uno por su cuenta y luego combinarse. Cuando algo se rompa más tarde, sabrás qué pieza es la responsable en lugar de desmontar una base entera.
+
+## Paso a paso: ejecutar una clonación a través de la interfaz
+
+Trata la ejecución como una secuencia deliberada, no como un reflejo rápido. La experiencia de los jugadores sugiere que frenar aquí ahorra la mayor cantidad de tiempo en general.
+
+1. **Abre la interfaz** y confirma que estás en un modo o zona que permite construir.
+2. **Selecciona la fuente.** Vuelve a revisar mayúsculas, espaciado y etiquetas duplicadas antes de continuar.
+3. **Elige el objetivo.** Muévete a suelo abierto y editable, y deja espacio libre para toda la huella.
+4. **Aplica un ajuste opcional a la vez.** Añade rotación o espejo solo después de que funcione la colocación base.
+5. **Confirma y observa los avisos.** Lee cualquier mensaje en lugar de hacer clic sin mirar.
+6. **Inspecciona desde tres ángulos** —frontal, trasero y lateral—, y luego prueba puertas, almacenamiento y enlaces de producción.
+
+| Etapa del flujo de trabajo | Acción | Señal de éxito |
+| --- | --- | --- |
+| Selección | Identifica la fuente correcta | La estructura prevista aparece nombrada o resaltada |
+| Colocación | Elige un destino despejado | Sin aviso de colisión ni de límite |
+| Opciones | Aplica un ajuste probado | La orientación cambia como se esperaba |
+| Validación | Inspecciona y activa la copia | Las piezas, los enlaces y las rutas de acceso funcionan |
+
+Una nota breve de construcción hace que esto sea repetible. Registra el nombre de la fuente, el destino previsto, el ajuste de rotación, el nivel de permiso requerido, la huella esperada y el resultado de la validación. En la siguiente sesión, reproduces una operación ya validada en lugar de adivinar.
+
+## Solución de problemas de interfaz y comandos
+
+La mayoría de los problemas encajan en cuatro categorías: errores de selección, conflictos de colocación, límites de permisos y conexiones rotas. Empieza con la prueba más pequeña posible en lugar de desmontar una construcción terminada.
+
+| Síntoma | Causa probable | Solución recomendada |
+| --- | --- | --- |
+| No aparece nada | Fuente no válida o permiso denegado | Revisa el nombre y luego el nivel de acceso |
+| La copia cae en el lugar equivocado | Problema del punto objetivo o de rotación | Usa un área de prueba marcada, restablece la rotación |
+| Las piezas se superponen | Huella más grande que el espacio | Despeja un área más amplia antes de reintentar |
+| Las máquinas siguen inactivas | Los enlaces no se conservaron | Reconecta los componentes o clona módulos por separado |
+| Los duplicados se siguen acumulando | El comando se ejecutó varias veces | Detente, elimina los extras, ejecuta solo una prueba |
+
+### Sigue el orden de diagnóstico
+
+Comprueba primero el permiso, luego la identidad de la fuente, después el espacio de destino, luego la orientación y, por último, los enlaces internos. Cambiar una variable a la vez evita que arregles la causa real por accidente mientras creas dos nuevas.
+
+### Ojo con los elementos vinculados a la ubicación
+
+Algunos componentes interactivos están atados a un lugar o propietario específico. Si el armazón se copia pero el comportamiento no, reconstruye manualmente esa conexión funcional después de colocarlo. En zonas de construcción compartidas, confirma también las reglas de propiedad: una estructura puede verse perfecta y seguir siendo inutilizable para otros constructores.
+
+## Estrategias avanzadas de interfaz para escalar construcciones
+
+Una vez que las clonaciones individuales son fiables, la interfaz se convierte en una herramienta de escalado.
+
+| Estrategia | Mejor uso | Riesgo principal |
+| --- | --- | --- |
+| Clonación modular | Bases grandes con funciones repetidas | Los módulos pueden no alinearse |
+| Clonación simétrica | Muros, salas y carriles equilibrados | Los errores de rotación se vuelven obvios |
+| Clonación de plantillas | Diseños iniciales estándar | Puede incluir piezas innecesarias |
+| Clonación por etapas | Proyectos construidos por fases | Las fases posteriores bloquean el acceso anterior |
+| Clonación en área de prueba | Aprender nuevas opciones de la interfaz | Las zonas restringidas se comportan de forma distinta |
+
+Versiona tus fuentes a medida que las perfeccionas. Etiquetas como `DefenseGateV1` y `DefenseGateV2` mantienen disponible un diseño probado mientras pruebas una mejora. Revisa la fuente una vez y vuelve a clonar en lugar de editar cada duplicado a mano: esa es toda la recompensa de aprender bien la interfaz.
+
+Para tener una visión general de cómo los juegos sandbox centrados en la construcción estructuran sus herramientas y actualizaciones, el [catálogo de juegos sandbox y de construcción de Steam](https://store.steampowered.com/) es un punto de referencia útil para comparar interfaces entre títulos.
+
+## Lista de comprobación de seguridad, versionado y validación de la interfaz
+
+Repasa esta lista antes de cada colocación seria:
+
+- Confirma que la fuente tenga un nombre único y actual
+- Prueba primero en un área abierta y de bajo riesgo
+- Verifica tu nivel de permiso antes de confirmar
+- Comprueba orientación, colisión, propiedad y conexiones después de colocar
+- Elimina las copias fallidas antes de generar otra versión
+
+| Revisión final | Pregunta que responder |
+| --- | --- |
+| Fuente | ¿Es esta la estructura correcta y probada? |
+| Destino | ¿Está el objetivo despejado y es lo bastante grande? |
+| Permisos | ¿Puede mi rol ejecutar este comando? |
+| Función | ¿Funcionan los enlaces, las máquinas y las rutas de acceso? |
+| Mantenimiento | ¿Se puede actualizar o eliminar esta copia de forma segura? |
+
+## Preguntas frecuentes: dudas sobre la interfaz de clonación para constructores
+
+**P: ¿Para qué sirve la interfaz de clonación para constructores?**
+
+Reproduce una estructura probada en otra ubicación para que evites reconstruir el mismo diseño a mano. Los paneles y las opciones disponibles dependen de tu versión específica del juego o de la configuración del servidor, así que consulta la referencia de tu propio entorno.
+
+**P: ¿Por qué mi clon aparece pero no funciona?**
+
+Normalmente porque la interfaz copió la geometría sin conservar los enlaces funcionales, o porque los componentes vinculados a la ubicación perdieron su conexión. Reconecta máquinas, puertas y almacenamiento después de colocarlo, y vuelve a validar las reglas de propiedad.
+
+**P: ¿Cómo evito copias duplicadas o mal colocadas?**
+
+Usa un área de prueba marcada, confirma el nombre de la fuente y el destino antes de confirmar, ejecuta exactamente un comando e inspecciona el resultado antes de repetirlo. Si falla, elimina primero las copias parciales.
+
+**P: ¿Debería clonar una base entera o módulos individuales?**
+
+Los módulos son más fáciles de probar, actualizar y diagnosticar. Clona una base completa solo cuando el diseño sea estable, el objetivo tenga suficiente espacio libre y las reglas de permisos y conexiones estén confirmadas.
+
+**P: ¿Qué es lo que más frena a los jugadores nuevos en la interfaz de clonación para constructores?**
+
+Saltarse la validación. Una copia visualmente correcta pero funcionalmente muerta cuesta más tiempo que construir desde cero, así que ejecuta siempre la lista de comprobación antes de escalar.

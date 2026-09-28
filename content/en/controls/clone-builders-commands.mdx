@@ -1,0 +1,145 @@
+export const metadata = {
+  title: "Clone Builders Commands: A Complete Guide to Copying and Scaling Builds Safely",
+  description: "Learn how clone builders commands work: prepare a clean source, pick the right target, check permissions, and validate every copy before you scale.",
+  category: "controls",
+  date: "2026-09-29",
+}
+
+Clone builders commands can turn one good building session into a repeatable construction system. Instead of hand-placing the same storage row, defense gate, or production block at every outpost, you name a finished structure once and reproduce it wherever you need it. That is the entire appeal — and it is also where most players get burned. Clone builders commands copy exactly what you give them, flaws included: broken machine links, leftover scaffolding, a door facing a solid wall.
+
+The good news is that cloning stops being complicated the moment you treat it as a controlled build operation rather than a magic button. Prepare a clean source, choose a target with room to spare, confirm your permission level, then validate the copy before you make a second one. This guide walks through that workflow step by step, along with the fixes for the errors players run into most often.
+
+## What Clone Builders Commands Actually Do
+
+At its core, a clone command answers one question: which named structure should appear at which location? Everything else — rotation, footprint, ownership, connected machines — is either something you control deliberately or something you inherit by accident. Understanding that split is what separates a builder who clones confidently from one who keeps cleaning up failed duplicates.
+
+Most clone failures trace back to one of four elements, and each one has a specific thing worth double-checking before you commit.
+
+| Command Element | What It Does | What to Verify |
+| --- | --- | --- |
+| Source | Identifies the structure being copied | Exact spelling, capitalization, and a unique label |
+| Target | Defines where the copy appears | Clear ground, valid placement point, enough footprint |
+| Permission | Decides whether the command runs at all | Your role on the server or in the shared build zone |
+| Validation | Confirms the copy is actually usable | Parts, links, ownership, orientation, resource behavior |
+
+### Why Preparation Beats Speed
+
+A clone is not a creative tool; it is a duplication tool. That distinction matters, because duplication multiplies mistakes just as efficiently as it multiplies good design.
+
+- A missing cable in the source becomes a missing cable in every copy.
+- A temporary marker left in place gets stamped into production layouts.
+- A structure that only "sort of" works will fail at scale.
+- Fixing twenty bad copies takes far longer than fixing one source.
+
+Community reports from shared build servers consistently point to the same lesson: the players who clone fastest are the ones who spent an extra five minutes cleaning the source first.
+
+## How to Prepare a Source Structure Worth Copying
+
+The strongest clone builders commands depend on a source that is small, finished, and tested under normal conditions. If your design depends on connected machines, decorative anchors, or interactive components, verify each relationship before you duplicate anything.
+
+Follow this preparation sequence and you will eliminate most failed placements before they happen.
+
+1. **Build the smallest useful version.** Include only the parts the structure needs to function: production modules, storage, access paths, defensive sections.
+2. **Strip temporary pieces.** Scaffolding, test markers, and half-finished decoration should never survive into a clone.
+3. **Give it a unique, purpose-driven name.** A label like `StarterHub` or `OreLineA` is instantly recognizable; `Build1` is not.
+4. **Run the source before you copy it.** Activate every connected element and confirm the behavior you expect. Faults in the original will appear in every copy.
+5. **Record the intended orientation.** Note which side faces the entrance, resource route, or defensive lane so rotation testing stays predictable.
+
+| Preparation Check | Ready Condition | Common Failure |
+| --- | --- | --- |
+| Structure name | Unique and easy to type | Near-identical names cause wrong selections |
+| Internal links | All required connections function | Copied sections appear disconnected |
+| Footprint | Measured before placement | Target area turns out to be too small |
+| Orientation | Front and rear are clearly identifiable | Copy faces the wrong direction |
+| Temporary parts | Removed or clearly flagged | Decorative scaffolding gets duplicated |
+
+If a build contains several independent modules, clone them separately. A production block, a storage block, and an entrance section can each be tested on their own before being combined into a larger layout. When something breaks, you will know exactly which module caused it.
+
+Because command wording can differ between versions, private servers, and custom rule sets, always confirm the syntax in your current environment rather than assuming an older format still applies. The [Clone Builders Wiki command-clone reference](https://www.clonebuilderswiki.wiki/clones/clone-builders-command-clones) is a reasonable starting point, but the in-game command list is the final authority.
+
+## The Step-by-Step Command Workflow
+
+A deliberate workflow beats improvisation every time. Before executing, confirm the source and target. During execution, watch for permission messages or placement warnings. After execution, inspect the copy from multiple angles rather than trusting a single glance.
+
+1. **Open the command interface.** Make sure you are in the right mode or permission context before typing anything.
+2. **Select the source.** Enter the exact name or pick the structure from the menu, then recheck capitalization, spacing, and duplicate labels.
+3. **Choose the target.** Move to an open destination and identify the placement point, leaving clearance for the entire footprint including overhangs and connected modules.
+4. **Apply optional settings — one at a time.** Test a single rotation or mirror adjustment so you can tell what changed if something goes wrong.
+5. **Inspect and confirm.** Check the copy from the front, rear, and sides, then activate doors, storage, and production links to prove they work.
+
+| Workflow Stage | Action | Success Signal |
+| --- | --- | --- |
+| Selection | Identify the correct source | The intended structure is named or highlighted |
+| Placement | Pick a clear destination | No collision or boundary warning appears |
+| Options | Apply one tested adjustment | Orientation changes exactly as expected |
+| Review | Walk the copied structure | Parts, links, and access routes behave normally |
+
+Avoid blind repetition. Running the same failing command five times in a row produces overlapping parts, blocked corridors, and a cleanup job. When a command fails, change one variable at a time — source name, then destination, then permissions, then optional settings. That order prevents you from juggling several possible causes at once.
+
+Keeping a short command note also pays off later. Record the source name, intended destination, rotation setting, required permission level, expected footprint, and the validation result.
+
+## Troubleshooting Clone Builders Commands Errors
+
+Most problems fit into four buckets: selection errors, placement conflicts, permission limits, and incomplete connections. The right fix depends on what you actually observe, so start with the smallest possible test instead of dismantling your entire build.
+
+| Symptom | Likely Cause | Recommended Fix |
+| --- | --- | --- |
+| Nothing appears at all | Invalid source or denied permission | Recheck the name and your access level |
+| Copy lands in the wrong spot | Target point or orientation issue | Use a marked test area and reset rotation |
+| Parts overlap existing builds | Target footprint is too small | Clear a wider area before retrying |
+| Machines sit inactive | Links were not preserved | Reconnect components or clone modules separately |
+| Extra duplicates keep appearing | Command fired multiple times | Stop, remove the extras, then run one clean test |
+
+A practical diagnostic order keeps troubleshooting short:
+
+- **Permission** — can your role execute the command?
+- **Source identity** — is the name exact and unique?
+- **Destination space** — is the ground clear and editable?
+- **Orientation** — does the copy face the direction you need?
+- **Internal links** — do the connected systems still function?
+
+Some structures contain elements that simply should not be duplicated, particularly temporary markers or interactive components tied to a specific location. If a clone produces the shell of a building but not its behavior, rebuild the functional connection after placement. In shared construction zones, also confirm ownership rules — a structure can look perfect while remaining unusable to other builders, or inherit permissions that do not match the target area.
+
+## Advanced Clone Strategies and Safety
+
+Once the basic workflow feels routine, cloning becomes a scaling tool. Instead of duplicating an entire base, copy only the sections that benefit from consistency, and place unique landmarks and location-specific utilities by hand.
+
+| Strategy | Best Use Case | Main Risk |
+| --- | --- | --- |
+| Modular cloning | Large bases with repeated functions | Modules may not align cleanly |
+| Symmetrical cloning | Balanced walls, rooms, or lanes | Rotation errors become obvious fast |
+| Template cloning | Standard starter layouts | Copies may include unnecessary parts |
+| Staged cloning | Projects built across several phases | Later phases can block earlier access |
+| Test-area cloning | Learning new command options | Results may differ in restricted zones |
+
+Modules that tend to clone well include resource-processing lines, storage and sorting blocks, defensive gates, housing or utility rows, transport corridors, and decorative entrance sections.
+
+### Clone Command Safety Checklist
+
+- Confirm the source structure has a unique, descriptive name.
+- Test the command in an open, low-risk area first.
+- Verify permissions before applying the clone to a shared build.
+- Check orientation, collision, ownership, and connections.
+- Remove failed copies before creating another version.
+
+Use version labels such as `DefenseGateV1` and `DefenseGateV2` while iterating on improvements, and keep the stable version available until the replacement passes inspection. Also resist the urge to produce a dozen duplicates before validating the first one. A successful test should prove more than visual placement: the structure should be enterable, operable, connectable, and maintainable in its new location.
+
+## FAQ: Clone Builders Commands
+
+**What are clone builders commands used for?**
+
+They reproduce a tested structure at a different location, which cuts out repetitive construction. The exact format and available options depend on your current Clone Builders environment, so always check the in-game command reference.
+
+**Why does a clone appear but fail to function?**
+
+The visual parts copied successfully, but the internal connections did not. Machines, storage links, and interactive components often need to be reconnected manually after placement. Cloning modules separately usually makes this easier to diagnose.
+
+**How do I prevent duplicate or misplaced copies?**
+
+Use a marked test area, confirm the source name and destination, run one command, and inspect the result before repeating it. If the command fails, delete any partial copies before trying again.
+
+**Should I clone an entire base or just separate modules?**
+
+Separate modules are easier to test, update, and troubleshoot. Clone a complete base only when the layout is stable, the target area has enough clearance, and ownership rules have been verified.
+
+The strongest workflow is also the simplest: build a clean source, test one copy, validate every connection, and scale only after the result proves reliable. Save a short build record for each structure — source name, intended use, orientation, footprint, and validation notes — and a one-time command becomes a repeatable construction method you can trust as your base grows.

@@ -1,0 +1,130 @@
+export const metadata = {
+  title: "Guía de construcción de Clone Builders: Cómo los clones NPC construyen creaciones en Roblox",
+  description: "Aprende cómo funciona la construcción de Clone Builders: dale una idea a los clones NPC, míralos colocar, redimensionar y ensamblar piezas, además de consejos para proyectos sandbox más grandes.",
+  category: "mechanics",
+  date: "2026-09-29",
+}
+
+## ¿Qué es Clone Builders?
+
+Clone Builders es un sandbox de construcción experimental en Roblox donde tú no eres quien coloca los bloques: lo hacen tus clones. Le entregas una idea a una cuadrilla de NPC y un sistema de construcción estructurado toma el control: las piezas se colocan, se redimensionan, se mueven y se ensamblan hasta formar una creación en algún lugar del mundo. Luego observas, ajustas y descubres si tu idea sobrevivió al contacto con su mano de obra.
+
+Esa inversión de roles es todo el gancho. La mayoría de los juegos sandbox te convierten en arquitecto y constructor al mismo tiempo. Aquí estás más cerca de un cliente con un presupuesto y una cuadrilla de construcción muy literal. La construcción en Clone Builders tiene menos que ver con habilidades de colocación precisa y más con delimitar bien una petición que tus clones puedan realmente terminar, lo cual es un tipo de desafío completamente distinto.
+
+La [página oficial de Clone Builders en Roblox](https://www.roblox.com/games/98456203230140/CLONE-BUILDERS) lo presenta como un experimento en constante evolución, con comportamientos extraños de los clones, nuevas funciones y "unos cuantos desastres" tratados como parte de la experiencia. Es tanto un laboratorio como un juego, y por eso mismo la gente vuelve una y otra vez para ver qué harán los clones después.
+
+### Vista rápida del juego
+
+| Característica | Detalles |
+|---|---|
+| Plataforma | Roblox (gratis) |
+| Etiquetas de género | Simulación, Sandbox |
+| Estado de desarrollo | En evolución activa, experimental |
+| IA usada para las construcciones | No — indicado explícitamente en la página oficial |
+| Recomendado para proyectos grandes | Servidor privado |
+| Inspiración declarada | NPC Builders de @Resurrected_Dove |
+| Hitos de la comunidad | Insignias por terminar una construcción y por una hora de juego |
+
+## Cómo funciona realmente la construcción en Clone Builders
+
+El bucle principal suena simple: dale un desafío a tus clones y míralos resolverlo. Lo interesante es todo lo que ocurre entre esos dos pasos.
+
+### Un sistema de construcción estructurado, no caos libre
+
+Los clones no improvisan sin control. Trabajan mediante un conjunto definido de operaciones de construcción, y eso es lo que hace que su comportamiento sea legible, y también rompible. Entender esas operaciones es la forma más rápida de dejar de adivinar por qué una construcción salió como salió.
+
+| Operación | Qué significa en la práctica | Por qué te importa |
+|---|---|---|
+| Colocar | Los clones sitúan piezas en el mundo | Define la huella de tu idea |
+| Redimensionar | Las piezas se escalan hacia arriba o hacia abajo | Controla las proporciones y el equilibrio |
+| Mover | Las piezas se reposicionan | Corrige la deriva de colocación a mitad de la construcción |
+| Ensamblar | Las piezas se unen en una creación | Convierte un montón suelto en una construcción terminada |
+
+Como todos los clones siguen el mismo sistema estructurado, los fallos suelen ser rastreables. Si una construcción se derrumbó, rara vez es aleatorio: es un problema de alcance, una idea ambigua o una disposición de piezas que el sistema no pudo reconciliar. Esa trazabilidad es lo que hace que la construcción en Clone Builders sea tan satisfactoria de diagnosticar.
+
+### Tú aportas la idea, no el plano
+
+No estás arrastrando piezas por una cuadrícula. Estás describiendo una intención y dejando que los clones la interpreten. Eso significa que la calidad de tu petición hace casi todo el trabajo. Las ideas vagas producen construcciones vagas; las ideas específicas y físicamente sensatas producen resultados reconocibles.
+
+Esto también explica por qué el juego se siente distinto de un modo creativo estándar. En un sandbox normal, la distancia entre tu visión y el resultado es tu propia habilidad. En la construcción de Clone Builders, esa distancia es la interpretación, y aprender a reducirla es la verdadera curva de aprendizaje.
+
+### La decisión de diseño de "sin IA"
+
+La página del juego es directa al respecto: las construcciones no usan IA. Los clones no generan ideas a partir de un modelo ni inventan estructuras por su cuenta. Ejecutan un sistema de construcción basado en reglas dentro del mundo.
+
+Para los jugadores, eso son buenas noticias. Los sistemas basados en reglas se pueden aprender, predecir y aprovechar. Una vez que detectas un patrón en cómo los clones manejan cierto tipo de petición, puedes repetirlo deliberadamente. También significa que el caos del juego es mecánico y no aleatorio: el "comportamiento extraño de los clones" que mencionan los desarrolladores proviene de casos límite, no de un cerebro impredecible en segundo plano.
+
+## Consejos para mejores sesiones de construcción en Clone Builders
+
+La mayor parte de la frustración en este juego viene de pedir demasiado y demasiado rápido. Estos hábitos lo solucionan.
+
+| Consejo | Por qué ayuda | Cómo aplicarlo |
+|---|---|---|
+| Empieza con una idea de un solo objeto | Menos partes móviles significa menos puntos de fallo | Pide una estructura antes de pedir una escena |
+| Mantén las peticiones físicamente plausibles | El sistema coloca y redimensiona piezas reales | Evita formas imposibles que no se apoyen en nada |
+| Observa todo el intento | El comportamiento de los clones es donde vive la información útil | No cambies de pestaña: sigue dónde empieza a fallar la construcción |
+| Usa un servidor privado para ideas grandes | Los servidores públicos añaden ruido a los proyectos grandes | Reserva las construcciones grandes y los minijuegos para tu propio espacio |
+| Repite la misma idea dos veces | Revela qué es consistente y qué es situacional | Compara los resultados antes de cambiar tu petición |
+| Registra tus fallos | Los experimentos fallidos son conocimiento reutilizable | Anota qué pediste y qué obtuviste |
+
+### Hábitos prácticos que dan resultado
+
+- **Reduce el alcance antes de ampliarlo.** Una construcción que termina vale más que una ambiciosa que se estanca.
+- **Prioriza la claridad desde el principio.** Pon el detalle más importante de tu idea primero, ya que eso es lo que da forma a la disposición inicial de los clones.
+- **Trata los desastres como datos.** Cada construcción derrumbada o torcida te dice algo específico sobre los límites del sistema.
+- **Usa una petición conocida como referencia.** Repetir una construcción conocida después de una actualización te muestra qué cambió.
+- **Dale a las construcciones grandes su propio servidor.** El propio juego recomienda un servidor privado para construcciones a gran escala y minijuegos.
+
+## Servidores públicos vs. servidores privados para construcciones grandes
+
+La elección de servidor es uno de los pocos ajustes de la construcción en Clone Builders que controlas por completo, y cambia la experiencia más de lo que la mayoría de los jugadores espera.
+
+| Factor | Servidor público | Servidor privado |
+|---|---|---|
+| Escala de construcción | Mejor para ideas pequeñas y rápidas | Recomendado para construcciones grandes y minijuegos |
+| Distracciones | Otros jugadores y sus proyectos | Entorno limpio y enfocado |
+| Seguimiento de experimentos | Más difícil aislar causa y efecto | Más fácil comparar intentos |
+| Mejor caso de uso | Probar una idea rápida | Proyectos a largo plazo y pruebas repetibles |
+| Coste | Gratis para entrar | Requiere configurar tu propio servidor |
+
+La conclusión práctica: usa los servidores públicos para aprender el ritmo de la construcción en Clone Builders y luego traslada cualquier cosa ambiciosa a un espacio privado. La propia guía del juego orienta a los jugadores hacia los servidores privados exactamente por esta razón: los proyectos grandes simplemente necesitan espacio para respirar sin interferencias.
+
+## Desafíos, insignias y experimentos de la comunidad
+
+Según la experiencia de los jugadores y los informes de la comunidad, parte de la diversión es perseguir los hitos que el juego te pone por delante. Dos insignias mencionadas con frecuencia son dejar que tus clones terminen una construcción y jugar durante una hora completa. Ninguna es difícil sobre el papel, pero la primera enseña una lección importante: terminar es una habilidad de diseño, no una estadística de suerte.
+
+La comunidad en general trata el juego como un campo de pruebas. Los jugadores intentan romper experimentos a propósito: dan a los clones peticiones contradictorias o desmesuradas para ver dónde cede el sistema estructurado. Eso no es griefing; es el uso previsto. Los desarrolladores crearon el juego para que se le exija al máximo.
+
+### Una sencilla escalera de desafíos
+
+| Nivel | Idea de desafío | Habilidad que desarrolla |
+|---|---|---|
+| 1 | Conseguir que se complete un solo objeto | Leer el comportamiento de los clones |
+| 2 | Construir el mismo objeto dos veces y comparar | Consistencia y repetibilidad |
+| 3 | Ensamblar una pequeña estructura de varias piezas | Coordinación a lo largo de una construcción |
+| 4 | Recrear un monumento de memoria | Control de escala y proporción |
+| 5 | Diseñar una arena de minijuego en un servidor privado | Delimitación completa de un proyecto |
+
+Subir por esta escalera es un uso del tiempo mucho mejor que saltar directamente a una megaconstrucción. Cada peldaño enseña algo que el siguiente da por sentado que ya sabes sobre la construcción en Clone Builders.
+
+## Preguntas frecuentes sobre la construcción en Clone Builders
+
+**¿Qué es exactamente la construcción en Clone Builders?**
+
+Es un sandbox experimental de Roblox donde clones NPC construyen creaciones por ti. Tú aportas una idea y los clones usan un sistema de construcción estructurado para colocar, redimensionar, mover y ensamblar piezas. Estás dirigiendo mano de obra en lugar de colocar bloques tú mismo.
+
+**¿Clone Builders usa IA para generar construcciones?**
+
+No. La página oficial del juego indica claramente que las construcciones no usan IA. Los clones funcionan con un sistema de construcción basado en reglas, lo que significa que su comportamiento se puede aprender y predecir con el tiempo.
+
+**¿Por qué mis clones construyen algo distinto de lo que pedí?**
+
+Casi siempre porque la petición era ambigua o físicamente impracticable. Los clones interpretan tu idea en lugar de clonar tu imagen mental. Reduce el alcance, describe algo construible y el resultado se ajustará más a tu intención.
+
+**¿Necesito un servidor privado para disfrutar de la construcción en Clone Builders?**
+
+No para proyectos pequeños. Los servidores públicos están bien para pruebas rápidas y para aprender lo básico. Pero el juego recomienda un servidor privado para construcciones a gran escala y minijuegos, ya que estos se benefician de espacio, concentración y menos jugadores compitiendo.
+
+**¿El juego sigue actualizándose?**
+
+Sí. Está planteado como un experimento en constante evolución, así que espera nuevas funciones, peculiaridades de comportamiento y desastres ocasionales junto a ellas. Esa inestabilidad es una característica del formato, no una señal de que lo estés jugando mal.

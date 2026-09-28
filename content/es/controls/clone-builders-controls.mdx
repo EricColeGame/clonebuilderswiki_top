@@ -1,0 +1,124 @@
+export const metadata = {
+  title: "Controles de Clone Builders explicados: prompts, cámara, clones y gestión de construcciones",
+  description: "Descubre cómo funcionan los controles de Clone Builders: prompts, colocación, número de clones, asignación de la cuadrilla y trucos de cámara que mantienen cada construcción en marcha.",
+  category: "controls",
+  date: "2026-09-29",
+}
+
+Los controles de Clone Builders no van de reflejos ni de combinaciones de teclas complejas: van de decirle a una cuadrilla de clones NPC qué construir y luego dejar que hagan el trabajo pieza a pieza. Si alguna vez has encolado una construcción y has visto que no pasaba nada, o has cancelado un proyecto segundos antes de que terminara, el problema era casi con seguridad cómo usaste esos controles. Entender los controles de Clone Builders importa porque cada operación con piezas del juego —colocar, redimensionar, mover y ensamblar— pasa por ese pequeño puñado de menús y entradas que realmente tocas. Tú marcas el objetivo; los clones lo ejecutan.
+
+## Qué hacen realmente los controles de Clone Builders
+
+La respuesta corta: nunca colocas una sola pieza tú mismo. Abres el menú de construcción, escribes una idea, eliges una ubicación, decides cuántos clones enviar y confirmas la construcción. Todo lo que viene después —conseguir piezas, dimensionarlas, posicionarlas, unirlas en secciones— ocurre automáticamente.
+
+La descripción oficial del juego presenta Clone Builders como un sandbox de construcción experimental donde los clones NPC usan un sistema de construcción estructurado para colocar, redimensionar, mover y ensamblar piezas hasta convertirlas en creaciones dentro del mundo. Esa misma descripción afirma claramente que el juego no usa IA para las construcciones. Esa distinción importa: tu petición se ejecuta mediante un conjunto definido de operaciones con piezas en lugar de un modelo generativo, y por eso los prompts claros y concretos suelen dar resultados más limpios que los largos y complicados.
+
+Como la experiencia aún está en evolución, el comportamiento de los clones y las operaciones disponibles pueden cambiar entre actualizaciones, así que merece la pena releer la ficha oficial después de un parche. El juego está publicado por Synoptic Interactive y alojado en la [plataforma oficial de Roblox](https://www.roblox.com/), donde puedes consultar la descripción actual por tu cuenta.
+
+| Acción | Quién la hace | Dónde ocurre |
+| --- | --- | --- |
+| Introducir la idea de construcción | Tú | Campo de texto del menú de construcción |
+| Elegir la ubicación de la construcción | Tú | Superficie de colocación en el mundo |
+| Seleccionar el número de clones | Tú | Selector de número de clones |
+| Colocar piezas | Los clones | Automático, pieza a pieza |
+| Redimensionar piezas | Los clones | Automático, para ajuste y proporción |
+| Mover piezas | Los clones | Automático, durante toda la construcción |
+| Ensamblar secciones | Los clones | Automático, hasta la estructura final |
+| Asignar o retirar clones | Tú | Panel de cuadrilla y cola |
+| Inspeccionar la construcción | Tú | Movimiento de cámara |
+
+En otras palabras, tu superficie de control es pequeña pero de gran impacto. No estás construyendo: estás dirigiendo, y la calidad de tu dirección se refleja en la estructura acabada.
+
+## Cómo usar los controles de Clone Builders: de la idea a la construcción terminada
+
+Casi todas las construcciones siguen el mismo bucle de control. Cinco entradas lo cubren.
+
+| Paso | Control que usas | Qué hacer | Por qué importa |
+| --- | --- | --- | --- |
+| 1 | Prompt de idea de construcción | Escribe un único tema claro | Los prompts con varios temas dividen el trabajo de la cuadrilla |
+| 2 | Zona de colocación | Elige una superficie despejada con espacio abierto alrededor | Los clones necesitan sitio para caminar, buscar y colocar |
+| 3 | Número de clones | Elige cuántos clones asignar | Más clones pueden significar una construcción más rápida; un walkthrough grabado observó tres clones en un mismo trabajo |
+| 4 | Confirmación de construcción | Confirma y quédate cerca | Los clones aparecen, encuentran una posición de trabajo y luego buscan y colocan piezas |
+| 5 | Movimiento de cámara | Camina alrededor y aléjate | Las creaciones grandes superan rápidamente la vista predeterminada |
+
+Una vez que empieza la construcción, mira los números en lugar del reloj. En un walkthrough, el contador de progreso empezó en 0 % con 0/176 piezas y subió de forma constante a medida que entraban las piezas; esa cifra proviene de la construcción de ese jugador concreto, no es un objetivo fijo para todos los proyectos. Cuando el modelo termina, aparece un banner en la parte superior de la pantalla que nombra la creación y la marca como completada, a menudo con un breve mensaje de "¡completado!" junto a tu prompt.
+
+Las creaciones grandes o detalladas pueden tardar un rato. Varias docenas de piezas ensamblándose de una en una es lento por diseño, y una construcción que parece estancada puede simplemente estar a mitad de ensamblaje.
+
+Una cosa más que conviene saber: un creador de contenido de gameplay ha comentado que los clones "en realidad solo construyen un pre-modelo", es decir, un modelo prefabricado. Eso es comentario de un creador y no una mecánica confirmada, y no es necesariamente incompatible con el ensamblaje estructurado de piezas, ya que oficialmente el juego describe a los clones colocando, redimensionando, moviendo y ensamblando piezas. No tomes ninguna de las dos interpretaciones como un hecho cerrado. Guíate por lo que muestren tus propias partidas y mantén tus expectativas flexibles.
+
+## Las cuatro operaciones con piezas que ponen en marcha tus entradas
+
+La descripción oficial nombra cuatro operaciones, y cada construcción que encolas es en realidad una petición de que esas cuatro cosas ocurran en secuencia.
+
+| Operación | Cómo se ve | En qué puedes influir aún |
+| --- | --- | --- |
+| Colocar | Los clones buscan piezas y las añaden de una en una | Claridad del prompt y espacio de colocación despejado |
+| Redimensionar | Las piezas se encogen o crecen para ajustarse a la sección prevista | Describir la escala en tu idea, como "pequeño" o "alto" |
+| Mover | Las piezas se reposicionan a medida que avanza la construcción | Mantener la zona despejada para que los clones puedan maniobrar |
+| Ensamblar | Las piezas individuales se combinan en secciones y luego en una estructura terminada | Dejar que la construcción termine antes de añadir detalle |
+
+Es un proceso centrado primero en las piezas. Los buenos proyectos suelen empezar con una base sencilla, establecen la forma principal y solo entonces añaden detalles más pequeños, lo que refleja cómo trabajan los propios clones: desde piezas individuales hasta una estructura mayor. Como dice un consejo habitual de la comunidad: lee los resultados, no las palabras. Las palabras que eliges no garantizan una geometría exacta, así que observa las relaciones que se desarrollan entre las piezas y adáptate a lo que veas.
+
+## Fases de construcción y gestión de la cuadrilla
+
+Cada proyecto pasa por fases reconocibles, y lo que deberías hacer con tus controles cambia en cada una.
+
+| Fase | Objetivo principal | Dónde centrarte |
+| --- | --- | --- |
+| Planificación | Elegir un objetivo práctico | Empieza con un diseño compacto y un solo tema |
+| Cimentación | Dar a los clones un punto de partida estable | Mantén la base nivelada y accesible |
+| Construcción | Dejar que los constructores completen el plan | Vigila el progreso y evita bloquear el acceso |
+| Pruebas | Confirmar que la creación funciona | Comprueba colisiones, puntos de entrada y movimiento |
+| Refinamiento | Mejorar la usabilidad y el aspecto | Arregla los problemas de acceso antes de decorar detalles |
+
+### Gestionar la cuadrilla mientras los clones trabajan
+
+El panel de cuadrilla es la parte de los controles de Clone Builders que la mayoría de jugadores ignora hasta que algo va mal. Apréndelo pronto.
+
+| Acción a mitad de construcción | Qué hace | Cuándo usarla |
+| --- | --- | --- |
+| Desasignar / Deassign | Retira a un solo clon de la tarea actual | Una construcción está consumiendo a toda la cuadrilla |
+| Desasignar a todos | Vacía toda la cuadrilla | Quieres detenerlo todo y reiniciar |
+| Pestaña de cola | Guarda las construcciones que esperan clones libres | Tienes varias ideas enfiladas |
+| Comprobación de progreso | Confirma que las piezas siguen entrando | Antes de cancelar nada |
+| Alejamiento de cámara | Revela toda la estructura | La construcción supera el tamaño de la pantalla |
+
+Antes de reiniciar cualquier cosa, haz una comprobación rápida: ¿el proyecto está cambiando de forma visible?, ¿siguen los clones asignados a él?, ¿puedes moverte alrededor de la estructura con libertad?, ¿tu prompt contenía varios temas?, ¿esperar revelaría más que reiniciar? Si las piezas siguen entrando, esperar suele ser mejor que reconstruir.
+
+## Errores comunes con los controles de Clone Builders
+
+La mayor parte de la frustración en este juego se remonta a un puñado de hábitos.
+
+| Error | Por qué duele | Mejor enfoque |
+| --- | --- | --- |
+| Cancelar un resultado pequeño de inmediato | Puede que el sistema aún esté procesando la petición | Espera y comprueba si todavía se están añadiendo piezas |
+| Meter varios temas en un solo prompt | Divide la atención de la cuadrilla entre peticiones | Un tema claro por construcción |
+| Construir en un espacio angosto | Los clones no pueden buscar ni posicionar piezas con limpieza | Elige terreno abierto con espacio libre por todos los lados |
+| Quedarte dentro de la huella de la construcción | Puede bloquear las rutas de acceso de los clones | Observa desde un lado y aléjate en proyectos grandes |
+| Esperar geometría exacta a partir de palabras exactas | El trabajo de los clones varía de un proyecto a otro | Lee los resultados y adáptate |
+| Reiniciar en vez de revisar la cola | Desperdicia tiempo, clones y progreso | Revisa primero la pestaña de cola |
+
+El tema es sencillo: dale a la cuadrilla un objetivo claro, dale espacio y dale tiempo. Tus entradas son pocas, así que los errores que cometes con ellas son fáciles de repetir, y fáciles de corregir una vez que sabes qué buscar.
+
+## FAQ: controles de Clone Builders, resueltos
+
+**¿Coloco yo mismo las piezas en Clone Builders?**
+
+No. Introduces una idea de construcción, eliges una ubicación y un número de clones, y los clones colocan, redimensionan, mueven y ensamblan las piezas por ti. Tu papel es marcar el objetivo y gestionar la cuadrilla, no manejar piezas individuales.
+
+**¿Usa el juego IA para interpretar mi idea?**
+
+La página oficial afirma claramente que Clone Builders no usa IA para las construcciones. Las construcciones surgen de clones que realizan operaciones estructuradas con piezas a partir de tu petición, y por eso los prompts claros y concretos suelen funcionar mejor que los elaborados.
+
+**¿Cuántos clones debería asignar a una construcción?**
+
+No hay un número fijo. La experiencia de un jugador en un walkthrough grabado mostró tres clones asignados a un mismo trabajo, que se completó a un ritmo constante. Empieza con pocos, observa cómo progresa la construcción y amplía la cuadrilla para proyectos más grandes.
+
+**¿Por qué tarda tanto mi construcción?**
+
+Las creaciones detalladas implican más piezas, y las piezas entran de una en una. Una construcción que parece estancada puede seguir ensamblándose. Comprueba el contador de progreso, confirma que los clones siguen asignados y reinicia solo si nada ha cambiado durante un buen rato.
+
+**¿Qué debería hacer si la construcción terminada se ve mal?**
+
+Adáptate en lugar de asumir un fracaso. El trabajo de los clones puede variar entre proyectos, así que inspecciona el resultado, anota qué partes de tu prompt fueron poco claras y luego refina tus palabras e inténtalo de nuevo con una idea más concreta.

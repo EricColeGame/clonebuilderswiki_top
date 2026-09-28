@@ -1,0 +1,160 @@
+export const metadata = {
+  title: "Clone-Builder-Oberfläche: Befehls-Klone, Platzierung und Validierung meistern",
+  description: "Meistere die Clone-Builder-Oberfläche mit einem Schritt-für-Schritt-Workflow, Berechtigungsprüfungen, Platzierungstipps und Fehlerbehebungen für sauberere Kopien.",
+  category: "controls",
+  date: "2026-09-29",
+}
+
+## Warum die Clone-Builder-Oberfläche über dein Ergebnis entscheidet
+
+Jeder fehlgeschlagene Klonversuch kostet Zeit, die du mit Bauen hättest verbringen können, und in den meisten Fällen liegt der Fehler darin, wie du die **Clone-Builder-Oberfläche** verwendet hast, nicht im Befehl selbst. Eine gut verstandene **Clone-Builder-Oberfläche** verwandelt ein riskantes einmaliges Experiment in eine wiederholbare Baumethode, der du bei jedem neuen Layout vertrauen kannst. Das ist wichtig, denn eine Kopie, die korrekt aussieht, aber nicht betreten, mit Strom versorgt oder verbunden werden kann, ist schlimmer als gar keine Kopie.
+
+Die meisten Spieler geben dem Befehl die Schuld, wenn ein Klon fehlschlägt. In der Praxis macht die Oberfläche genau das, was ihr gesagt wurde: Sie kopiert die von dir ausgewählte Quelle an die von dir gewählte Stelle mit der von dir angewendeten Rotation. Jedes Bedienelement zu verstehen – und die Reihenfolge, in der du es berührst – ist der schnellste Weg, wiederholte Fehler zu beenden.
+
+Dieser Leitfaden führt durch die Oberflächenbereiche, eine zuverlässige Vorbereitungsroutine, einen sauberen Ausführungsablauf und die Fehlerbehebungsreihenfolge, die Probleme in Sekunden isoliert. Er bleibt absichtlich allgemein, weil Menüs, Beschriftungen und Optionsnamen sich zwischen Builds, privaten Servern und benutzerdefinierten Regelsätzen ändern. Prüfe immer gegen die Befehlsreferenz in deiner eigenen Umgebung.
+
+## In der Oberfläche: Was jedes Bedienelement tatsächlich tut
+
+Die Oberfläche lässt sich am einfachsten lernen, wenn du sie als vier Entscheidungen statt als einen Befehl betrachtest.
+
+| Oberflächenbereich | Was er steuert | Was zu prüfen ist |
+| --- | --- | --- |
+| Quellenauswahl | Welche Struktur kopiert wird | Exakter Name, Schreibweise, Sichtbarkeit |
+| Zielplatzierung | Wo die Kopie erscheint | Freiraum, bearbeitbarer Boden, gültiger Ankerpunkt |
+| Rotations- und Spiegeloptionen | Ausrichtung der Kopie | Vorderseite, Eingangsseite, Spurrichtung |
+| Berechtigungsanzeige | Ob deine Rolle sie ausführen darf | Builder-, Moderator- oder Serverzugriffsebene |
+
+### Bereich zur Quellenauswahl
+
+Hier beginnen die meisten Fehler. Die Auswahl entspricht dem, was du eintippst oder anklickst, nicht dem, was du meintest. Wenn zwei Strukturen eine ähnliche Bezeichnung teilen, greift die Oberfläche möglicherweise die falsche. Kurze, eindeutige, zweckbasierte Namen lösen das dauerhaft.
+
+### Ziel- und Platzierungssteuerung
+
+Platzierung ist eine Entscheidung über die Grundfläche, nicht über den Cursor. Bevor du bestätigst, gehe den Umfang des vorgesehenen Ziels ab und schätze die vollständige Grundfläche ein, einschließlich Überhänge, Wege und verbundener Module, die über den Hauptkörper hinausragen.
+
+### Ausrichtungseinstellungen
+
+Die Rotation ist das am meisten unterschätzte Bedienelement. Eine gedrehte Kopie sieht aus einem Winkel oft noch überzeugend aus, während sie funktional in die völlig falsche Richtung zeigt. Teste die Rotation zuerst an einer Wegwerfstruktur, damit du lernst, wie die Oberfläche die Änderung meldet.
+
+| Häufiges Oberflächensignal | Was es meist bedeutet | Dein nächster Schritt |
+| --- | --- | --- |
+| Struktur hervorgehoben oder benannt | Quelle akzeptiert | Weiter zur Zielauswahl |
+| Kollisions- oder Grenzwarnung | Ziel zu eng | Größeren Bereich freiräumen |
+| Stille Ablehnung | Berechtigung oder ungültiger Name | Zugriffsebene prüfen, dann Schreibweise |
+| Kopie erscheint ohne Meldung | Befehl akzeptiert | Prüfen, bevor du etwas anderes ausführst |
+
+## Eine Quelle vorbereiten, bevor du die Oberfläche öffnest
+
+Ein verlässlicher Klon beginnt lange, bevor du ein Menü öffnest. Berichte aus der Community zeigen durchweg, dass fehlgeschlagene Platzierungen auf eine unordentliche Quelle zurückgehen, nicht auf einen defekten Befehl. Bereite in dieser Reihenfolge vor:
+
+1. Baue die kleinste Version, die noch ihren Zweck erfüllt – Produktionslinie, Lagerblock, Zugangsweg oder Verteidigungsabschnitt.
+2. Entferne Gerüste, Markierungen und temporäre Teile, die du nicht dupliziert haben möchtest.
+3. Gib der Struktur einen kurzen, eindeutigen, zweckbasierten Namen.
+4. Betreibe die Quelle unter normalen Bedingungen und bestätige, dass jedes verbundene Element funktioniert.
+5. Notiere die beabsichtigte Ausrichtung – welche Seite zum Eingang, zur Ressourcenroute oder zur Verteidigungslinie zeigt.
+
+| Vorbereitungsprüfung | Bereiter Zustand | Typisches Problem, wenn übersprungen |
+| --- | --- | --- |
+| Strukturname | Eindeutig und einfach zu tippen | Falsche Struktur ausgewählt |
+| Interne Verbindungen | Jede Verbindung funktioniert | Kopie erscheint getrennt |
+| Grundfläche | Im Voraus gemessen | Zielbereich zu klein |
+| Ausrichtung | Vorder- und Rückseite identifizierbar | Kopie zeigt in die falsche Richtung |
+| Temporäre Teile | Entfernt oder klar markiert | Gerüste überall dupliziert |
+
+Es hat echte Vorteile, Module separat zu klonen. Ein Produktionsblock, ein Lagerblock und ein Eingangsblock können jeweils eigenständig validiert und dann kombiniert werden. Wenn später etwas kaputtgeht, weißt du, welches Teil verantwortlich ist, statt eine ganze Basis auseinanderzunehmen.
+
+## Schritt für Schritt: Einen Klon durch die Oberfläche ausführen
+
+Behandle die Ausführung als bewusste Abfolge, nicht als schnellen Reflex. Spielererfahrung legt nahe, dass langsames Vorgehen hier insgesamt am meisten Zeit spart.
+
+1. **Öffne die Oberfläche** und bestätige, dass du dich in einem baubaren Modus oder Bereich befindest.
+2. **Wähle die Quelle aus.** Prüfe Groß-/Kleinschreibung, Abstände und doppelte Bezeichnungen, bevor du fortfährst.
+3. **Wähle das Ziel.** Gehe zu offenem, bearbeitbarem Boden und lasse Platz für die gesamte Grundfläche.
+4. **Wende jeweils eine optionale Einstellung an.** Füge Rotation oder Spiegelung erst hinzu, nachdem die Basisplatzierung funktioniert.
+5. **Bestätige und achte auf Warnungen.** Lies jede Meldung, statt sie wegzuklicken.
+6. **Prüfe aus drei Winkeln** – vorne, hinten und seitlich – und teste dann Türen, Lager und Produktionsverbindungen.
+
+| Workflow-Phase | Aktion | Erfolgssignal |
+| --- | --- | --- |
+| Auswahl | Die korrekte Quelle identifizieren | Beabsichtigte Struktur ist benannt oder hervorgehoben |
+| Platzierung | Ein freies Ziel wählen | Keine Kollisions- oder Grenzwarnung |
+| Optionen | Eine getestete Anpassung anwenden | Ausrichtung ändert sich wie erwartet |
+| Validierung | Kopie prüfen und aktivieren | Teile, Verbindungen und Zugangswege funktionieren |
+
+Eine kurze Baunotiz macht das wiederholbar. Notiere den Quellennamen, das beabsichtigte Ziel, die Rotationseinstellung, die erforderliche Berechtigungsstufe, die erwartete Grundfläche und das Validierungsergebnis. In der nächsten Sitzung reproduzierst du einen bekannt guten Vorgang, statt zu raten.
+
+## Fehlerbehebung bei Oberflächen- und Befehlsfehlern
+
+Die meisten Probleme fallen in vier Kategorien: Auswahlfehler, Platzierungskonflikte, Berechtigungsgrenzen und unterbrochene Verbindungen. Beginne mit dem kleinstmöglichen Test, statt einen fertigen Bau auseinanderzunehmen.
+
+| Symptom | Wahrscheinliche Ursache | Empfohlene Lösung |
+| --- | --- | --- |
+| Nichts erscheint | Ungültige Quelle oder verweigerte Berechtigung | Name prüfen, dann Zugriffsebene |
+| Kopie landet an der falschen Stelle | Zielpunkt- oder Rotationsproblem | Markierten Testbereich verwenden, Rotation zurücksetzen |
+| Teile überlappen | Grundfläche größer als der Platz | Vor erneutem Versuch einen breiteren Bereich freiräumen |
+| Maschinen bleiben inaktiv | Verbindungen wurden nicht beibehalten | Komponenten neu verbinden oder Module separat klonen |
+| Duplikate stapeln sich weiter | Befehl mehrfach ausgelöst | Stoppen, Extras entfernen, nur einen Test ausführen |
+
+### Arbeite die Diagnosereihenfolge ab
+
+Prüfe zuerst die Berechtigung, dann die Quellenidentität, dann den Zielraum, dann die Ausrichtung und schließlich die internen Verbindungen. Eine Variable nach der anderen zu ändern verhindert, dass du versehentlich die echte Ursache behebst und dabei zwei neue schaffst.
+
+### Achte auf ortsgebundene Elemente
+
+Einige interaktive Komponenten sind an einen bestimmten Ort oder Besitzer gebunden. Wenn der Rahmen kopiert wird, das Verhalten aber nicht, baue diese funktionale Verbindung nach der Platzierung manuell neu auf. Bestätige in gemeinsamen Bauzonen auch die Besitzregeln – eine Struktur kann perfekt aussehen und dennoch für andere Builder unbrauchbar bleiben.
+
+## Fortgeschrittene Oberflächenstrategien zum Skalieren von Bauten
+
+Sobald einzelne Klone zuverlässig sind, wird die Oberfläche zu einem Skalierungswerkzeug.
+
+| Strategie | Beste Verwendung | Hauptrisiko |
+| --- | --- | --- |
+| Modulares Klonen | Große Basen mit wiederkehrenden Funktionen | Module passen möglicherweise nicht zusammen |
+| Symmetrisches Klonen | Ausgewogene Wände, Räume, Spuren | Rotationsfehler werden offensichtlich |
+| Vorlagenklonen | Standard-Starter-Layouts | Kann unnötige Teile enthalten |
+| Phasenweises Klonen | Projekte, die in Phasen gebaut werden | Spätere Phasen blockieren früheren Zugang |
+| Klonen im Testbereich | Neue Oberflächenoptionen lernen | Eingeschränkte Zonen verhalten sich anders |
+
+Versioniere deine Quellen, während du sie verfeinerst. Bezeichnungen wie `DefenseGateV1` und `DefenseGateV2` halten ein bewährtes Design verfügbar, während du eine Verbesserung testest. Überarbeite die Quelle einmal und klone neu, statt jedes Duplikat von Hand zu bearbeiten – genau das ist der Gewinn, wenn du die Oberfläche richtig lernst.
+
+Für einen Überblick darüber, wie bauorientierte Sandbox-Spiele ihre Werkzeuge und Updates strukturieren, ist der [Steam-Katalog für Sandbox- und Bauspiele](https://store.steampowered.com/) ein nützlicher Referenzpunkt, um Oberflächen zwischen Titeln zu vergleichen.
+
+## Checkliste für Oberflächensicherheit, Versionierung und Validierung
+
+Gehe diese Liste vor jeder ernsthaften Platzierung durch:
+
+- Bestätige, dass die Quelle einen eindeutigen, aktuellen Namen hat
+- Teste zuerst in einem offenen Bereich mit geringem Risiko
+- Überprüfe deine Berechtigungsstufe, bevor du dich festlegst
+- Prüfe Ausrichtung, Kollision, Besitz und Verbindungen nach der Platzierung
+- Entferne fehlgeschlagene Kopien, bevor du eine weitere Version erzeugst
+
+| Abschlussprüfung | Zu beantwortende Frage |
+| --- | --- |
+| Quelle | Ist dies die korrekte, getestete Struktur? |
+| Ziel | Ist das Ziel frei und groß genug? |
+| Berechtigungen | Kann meine Rolle diesen Befehl ausführen? |
+| Funktion | Funktionieren Verbindungen, Maschinen und Zugangswege? |
+| Wartung | Kann diese Kopie sicher aktualisiert oder entfernt werden? |
+
+## FAQ: Fragen zur Clone-Builder-Oberfläche
+
+**F: Wofür wird die Clone-Builder-Oberfläche verwendet?**
+
+Sie reproduziert eine getestete Struktur an einem anderen Ort, damit du dasselbe Layout nicht von Hand neu bauen musst. Die verfügbaren Bereiche und Optionen hängen von deiner spezifischen Spielversion oder Serverkonfiguration ab, prüfe also die Referenz in deiner eigenen Umgebung.
+
+**F: Warum erscheint mein Klon, funktioniert aber nicht?**
+
+Meist weil die Oberfläche die Geometrie kopiert hat, ohne funktionale Verbindungen beizubehalten, oder weil ortsgebundene Komponenten ihre Verbindung verloren haben. Verbinde Maschinen, Türen und Lager nach der Platzierung neu und validiere die Besitzregeln erneut.
+
+**F: Wie verhindere ich doppelte oder falsch platzierte Kopien?**
+
+Verwende einen markierten Testbereich, bestätige Quellennamen und Ziel vor dem Bestätigen, führe genau einen Befehl aus und prüfe das Ergebnis, bevor du ihn wiederholst. Wenn er fehlschlägt, entferne zuerst Teilkopien.
+
+**F: Sollte ich eine ganze Basis oder einzelne Module klonen?**
+
+Module sind leichter zu testen, zu aktualisieren und Fehler zu beheben. Klone eine vollständige Basis nur, wenn das Layout stabil ist, das Ziel genug Freiraum hat und Berechtigungs- sowie Verbindungsregeln bestätigt sind.
+
+**F: Was bremst neue Spieler in der Clone-Builder-Oberfläche am meisten aus?**
+
+Das Überspringen der Validierung. Eine Kopie, die visuell korrekt, aber funktional tot ist, kostet mehr Zeit als ein Bau von Grund auf, führe also immer die Checkliste aus, bevor du skalierst.

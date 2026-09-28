@@ -1,0 +1,112 @@
+export const metadata = {
+  title: "Clone Builders Workers Explained: How Your Clone Crew Builds in Real Time",
+  description: "Learn what Clone Builders workers do on a build, how clone behavior and crew menus work, and how to prompt, place, and manage your clone crew cleanly.",
+  category: "mechanics",
+  date: "2026-09-29",
+}
+
+If you have ever typed an idea into Clone Builders and wondered who actually does the work, the answer is the clone builders workers — the NPC crew that places, resizes, moves, and assembles parts on your behalf. You supply an idea and a location; they handle the pieces. Because clone builders workers build gradually instead of snapping a finished model into place, understanding how the crew is wired changes how you plan every project you start.
+
+## What Clone Builders Workers Do on an Active Build
+
+Clone Builders is an experimental building sandbox hosted on [Roblox](https://www.roblox.com/) and developed by Synoptic Interactive, and its entire loop revolves around handing a target to a builder system. The official framing is refreshingly simple: give your clones an idea and watch them get to work — you set the challenge, the clones figure it out.
+
+One detail is worth repeating early, because it shapes everything else. The official game page states that Clone Builders does **not** use AI for builds. The crew follows a structured building system rather than a generative model, which is why results feel mechanical, incremental, and occasionally unpredictable rather than polished and instant.
+
+In practice, clone builders workers operate directly on the active project. Instead of placing anything yourself, you write a prompt and select a location. Community walkthroughs describe a small crew — often three clones — collecting pieces and putting the model together in real time while the player walks around and inspects their work.
+
+| Build stage | What you do | What the crew does | What to watch |
+| --- | --- | --- | --- |
+| Prompt | Describe one clear subject | Parses your build idea into individual parts | Whether the subject is specific enough |
+| Placement | Choose an open spot on the sandbox grid | Approaches the site and stages pieces | Whether workers have room to move |
+| Assembly | Roam and observe | Places, resizes, moves, and combines parts into sections | The live piece counter and overall shape |
+| Completion | Inspect the finished structure | Assembles the final structure and frees up | Whether the result matches your prompt |
+
+Construction is gradual by design. Clone workers construct projects over time instead of completing everything instantly, and large or detailed creations may require extended construction time, especially when many parts are being assembled. If you are used to instant-placement tools, that pacing is the single biggest adjustment.
+
+## How a Build Moves From Prompt to Finished Model
+
+The crew does not work from a single blueprint. Within the build, clones work from the idea you give them: they handle individual parts first, combine them into larger sections, and eventually assemble the final structure. That layered approach is why a project can look messy in the middle and coherent at the end.
+
+Because construction runs while you move around, your job during a build is mostly oversight. You can roam the server, inspect what other players are constructing, and come back to check your own project. Nothing freezes while you are away. This is also the best window to learn how the crew interprets language.
+
+| What you give the crew | Typical result | Why it happens |
+| --- | --- | --- |
+| One clear, recognizable subject | Faster to read, easier to judge | The system has fewer part decisions to resolve |
+| A vague or abstract idea | Unpredictable shape and scale | Parts compete for the same space |
+| A huge, multi-part request | Long construction time | Many sections must be assembled in sequence |
+
+The practical takeaway is boring but effective: start small, confirm the crew understood you, then scale up.
+
+## Clone Behavior States After a Job Is Assigned
+
+Community reports frame clone behavior as a set of rules that determines how a clone reacts after it receives a task. The consistently documented path is short: idle, then move to the work area, then perform a construction action. Other states sometimes listed in player guides — responding to danger, assisting another unit, or returning to a recovery state — reflect that guide's framing rather than an official description, so treat them as player experience rather than confirmed mechanics.
+
+| Observed state | What it looks like | Sensible response |
+| --- | --- | --- |
+| Idle | Clone stands still with no construction action | Confirm it is assigned and the target exists |
+| Moving to work area | Clone walks toward your build site | Clear obstacles along the route |
+| Construction action | Clone places, resizes, or moves parts | Leave the zone alone and watch the piece counter |
+| Waiting near a structure | Clone lingers near the model without building | Check materials and build range (player experience) |
+| Abandoning the job | Clone leaves mid-build | Consider a higher-priority interruption (player experience) |
+
+The same community guide offers habits worth adopting no matter how the states are labeled. Give each clone one clear primary role instead of splitting its attention. Keep construction routes free of unnecessary obstacles. Stage common materials near active build zones so workers spend less time traveling. And test a new structure on its own before layering more tasks on top of it. These habits matter more once you are running several clone builders workers on the same site.
+
+## Crew Management Surfaces During a Build
+
+Several in-game surfaces show what your clone builders workers are doing while a build runs. These labels come from player walkthroughs, and the developers describe the game as constantly evolving, so recheck them in-game if the systems change.
+
+| Surface | What it shows | When to use it |
+| --- | --- | --- |
+| Crew management window | Each clone's status, with labels such as "CLONE 1: BUILDING," plus a live piece counter for the model | Keep it open during long builds |
+| Unassign / Deassign | Pulls a single clone off a task mid-build | When one worker is stuck or you want to redirect it |
+| Deassign all | Clears the entire crew at once | Before restarting a project from scratch |
+| Queued tab | Builds waiting until clones are free | Check before assuming a build failed |
+| HUD | Speed, Noclip, Tools/Edit, Minigames, and Saves | Roam the server and inspect other players' work |
+
+The queued tab is the one players most often overlook. If a request appears to do nothing, the job may simply be waiting behind another build rather than broken. Confirm the assignment state before you cancel anything, and avoid stacking new jobs while one is still pending.
+
+## Prompting and Placing: Best Practices for Cleaner Builds
+
+Most disappointing builds trace back to the prompt, not the crew. Clone builders workers respond to a clear objective, so give them an open site and one recognizable subject and the results become far easier to read.
+
+| Prompt style | Typical outcome | Stronger version |
+| --- | --- | --- |
+| "A house" | Generic and minimal | "A small two-story house with a front porch" |
+| "Something cool" | Unpredictable and off-target | "A wooden watchtower with a ladder" |
+| "A giant castle with a moat and guards" | Very long build time, parts competing for space | Start with the main keep, then add detail later |
+
+Four habits separate smooth sessions from frustrating ones:
+
+- **Give one clear prompt with open placement.** Place the project where workers can move around it. Avoid tight corners, walls, and areas occupied by another build.
+- **Confirm the crew has started.** Look for signs that clones have begun working. If the build looks small, check whether the system is still processing before canceling.
+- **Keep the work zone clear.** Crowded placement makes it hard to inspect the result or spot problems early.
+- **Stay near your first few builds.** Watching how clones interpret a prompt teaches the difference between a clear instruction and one that is too vague or complicated. Construction continues while you observe or move around nearby.
+
+## When Clone Builders Workers Look Stalled
+
+The most common early mistake is assuming a slow build has failed. Large or detailed creations may require extended construction time, especially when several parts are being assembled. Before restarting, inspect the workers, the project perimeter, and any visible progress, then ask three questions: Is the project visibly changing? Are clones still assigned to the build? Would waiting reveal more than restarting?
+
+| Observation | Likely reason | Recommended response |
+| --- | --- | --- |
+| Build takes too long | Project is large or detailed | Wait, inspect progress, and avoid stacking jobs |
+| Workers seem inactive | Job may be queued or still processing | Check the project before canceling |
+| Clone stays idle | No valid task or unavailable target | Confirm assignment and target state |
+| Clone waits near a structure | Missing material or access | Check supply route and build range |
+| Clone abandons construction | Higher-priority interruption | Review your task priorities (player experience) |
+
+The rows about materials and task rules come from player experience reports rather than an official breakdown, so verify them in your own session. The one behavior that is consistently documented is simple: assigned clones move to the work area and construct on the project you started.
+
+## FAQ
+
+**Do clone builders workers use AI to build?**
+No. The official game page states that Clone Builders does not use AI for builds. The crew works through a structured building system that translates your prompt into parts, then places, resizes, moves, and assembles them over time.
+
+**How long should a build take?**
+It depends entirely on size and detail. Simple prompts resolve faster, while large or heavily detailed creations may need extended construction time, particularly when many parts are being assembled at once. Waiting a little longer is usually better than restarting.
+
+**Can I stop just one clone instead of the whole crew?**
+Yes. The crew management window lets you unassign or deassign a single clone mid-build, which is useful when one worker appears stuck while the rest are making progress. The "deassign all" option clears the entire crew at once.
+
+**What should I do if my crew does nothing at all?**
+Check three things in order: whether the build is sitting in the queued tab, whether clones are still assigned to the project, and whether the placement site is open enough for workers to reach it. Most "broken" builds turn out to be queued, unassigned, or walled in.
