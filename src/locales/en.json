@@ -39,22 +39,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core loop, set up a compact first build, and keep your clone crew working from your very first session."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Clone Mechanics",
+          "description": "Understand how NPC clones place, resize, move, and assemble parts so your build requests land the way you pictured them."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Upgrades & Progression",
+          "description": "Pick the right upgrades, track badges, and grow from a single clone project to full multi-part construction."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Clone Builders."
+          "title": "Codes & Rewards",
+          "description": "Check the current code status, learn how redemption works, and see which reward sources are actually worth your time."
         }
       ]
     },
@@ -62,78 +62,60 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Clone Mechanics",
+        "Build Ideas",
+        "Upgrades",
+        "Code Status"
       ],
       "cards": [
         {
-          "badge": "Beginner",
+          "badge": "Start Here",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need from your first clone command to a stable, growing base.",
+          "href": "/guide/clone-builders-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Mechanics",
+          "title": "How Clones Build",
+          "description": "How the NPC clone crew reads a request and turns it into finished parts.",
+          "href": "/mechanics/clone-builders-clones"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Controls",
+          "title": "Controls & Commands",
+          "description": "The build menu, clone count, camera, and HUD tools behind every project.",
+          "href": "/controls/clone-builders-controls"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Ideas",
+          "title": "Build Ideas",
+          "description": "Ranked project ideas, from quick starter structures to showcase builds.",
+          "href": "/maps/clone-builders-build-ideas"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Progress",
+          "title": "Upgrades & Progression",
+          "description": "How to spend upgrades and scale your clone crew without wasting resources.",
+          "href": "/mechanics/clone-builders-upgrades"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Status",
+          "title": "Codes Status",
+          "description": "The honest code status plus how redemption will work when codes drop.",
+          "href": "/codes/clone-builders-codes"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Clone Builders?",
       "paragraphs": [
-        "Clone Builders is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Clone Builders is a free experimental building sandbox on Roblox from developer Synoptic Interactive. Instead of placing every part yourself, you hand a build idea to a crew of NPC clones and a structured building system places, resizes, moves, and assembles the parts into a finished creation.",
+        "The game is open about being experimental, and the developers state that builds are not AI-generated, so the clarity of your request decides the result. Between Clone Coins, badges, upgrades, private servers, and a 15-player shared building space, there is a steady stream of systems to learn, and this wiki maps all of them."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Synoptic Interactive"
         },
         {
           "label": "Platform",
@@ -141,158 +123,240 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Simulation / Sandbox"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "2.1M+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Server Size",
+          "value": "15 Players"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Cost",
+          "value": "Free to Play"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Build Units",
+          "value": "NPC Clones"
+        },
+        {
+          "label": "Latest Update",
+          "value": "September 2026"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Clone Builders Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Everything you need to build better in Clone Builders: beginner walkthroughs, clone mechanics, controls, build ideas, upgrades, private servers, and the real code status.",
       "modules": [
         {
           "order": 1,
-          "name": "Clone Builders Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/clone-builders-codes",
-          "displayType": "code-box",
+          "name": "Clone Builders Wiki Beginner Guide",
+          "description": "A step-by-step walkthrough of your first build: setting up a compact layout, keeping clones productive, and avoiding the early mistakes that stall progress.",
+          "href": "/guide/clone-builders-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Open the build menu and pick one clear, simple idea to start with"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Place a compact production core with short travel paths for your clones"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Keep a small worker reserve so new structures can run right away"
+            },
+            {
+              "label": "4",
+              "detail": "Upgrade storage before output fills up and production stalls"
+            },
+            {
+              "label": "5",
+              "detail": "Improve build speed only after your income loop is stable"
+            },
+            {
+              "label": "6",
+              "detail": "Leave open expansion lanes instead of filling every tile"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/clone-builders-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Clone Builders Wiki Controls & Commands",
+          "description": "A reference for the build menu, clone count, camera, and the HUD tools that keep every construction project moving.",
+          "href": "/controls/clone-builders-controls",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Build Menu",
+              "detail": "Type a build idea, pick a location, and confirm the request"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Clone Count",
+              "detail": "Choose how many NPC clones work the request at once"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Camera",
+              "detail": "Check placement, scale, and walkability from different angles"
+            },
+            {
+              "label": "Saves",
+              "detail": "Store and reload finished structures from the HUD strip"
+            },
+            {
+              "label": "Noclip",
+              "detail": "Fly through geometry to inspect parts that look misplaced"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/clone-builders-tier-list",
+          "name": "Clone Builders Wiki Build Ideas",
+          "description": "Ranked build ideas for every skill level, from quick starter structures to ambitious multi-clone showcase projects.",
+          "href": "/maps/clone-builders-build-ideas",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Mega City Skylines — coordinated multi-clone projects that fill the plot"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Castles & Fortresses — layered walls, towers, and gateways"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Bridges & Vehicles — precise spans and convincing shapes"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Starter Houses — simple single-clone builds for testing ideas"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/clone-builders-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Clone Builders Wiki Clone Mechanics",
+          "description": "How the NPC clone crew reads your request, why clean prompts beat long ones, and how the structured building system turns ideas into parts.",
+          "href": "/mechanics/clone-builders-clones",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Prompts",
+              "detail": "Short, focused requests produce cleaner structures than long, complicated ones"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "No AI",
+              "detail": "Builds run on a structured part system, not a generative language model"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Part Rules",
+              "detail": "Clones work inside the game's geometry rules when placing and resizing"
+            },
+            {
+              "label": "Revision",
+              "detail": "Reword a request when a build comes out different from what you pictured"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/clone-builders-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Clone Builders Wiki Private Server Guide",
+          "description": "Set up a private server for uninterrupted co-op builds and larger experiments without fighting over a shared plot.",
+          "href": "/modes/clone-builders-multiplayer-mode",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "1",
+              "detail": "Create a private server from the Roblox game page"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "2",
+              "detail": "Invite your build partners before starting a shared project"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "3",
+              "detail": "Agree on an intended size and plot area before anyone commits"
+            },
+            {
+              "label": "4",
+              "detail": "Assign roles so each player owns a different part of the build"
+            },
+            {
+              "label": "5",
+              "detail": "Test scale early to avoid reworking an oversized request"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/clone-builders-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Clone Builders Wiki Updates",
+          "description": "Track new building features, event currencies, and system changes as the experimental sandbox keeps evolving.",
+          "href": "/progression/clone-builders-progression",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Coins",
+              "detail": "Clone Coins are the event currency used across rotating systems and rewards"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Badges",
+              "detail": "Milestone badges that mark progress through the game's build challenges"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "New Parts",
+              "detail": "Fresh building features and part options arriving over time"
+            },
+            {
+              "label": "Balance",
+              "detail": "Tuning changes that shift upgrade and progression priorities"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Clone Builders Wiki Codes",
+          "description": "The current code status, how redemption works, and how to tell a real code from a fabricated list.",
+          "href": "/codes/clone-builders-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Status",
+              "detail": "No working Clone Builders codes have been released as of September 2026"
+            },
+            {
+              "label": "Redeem",
+              "detail": "When codes drop, they are entered from the in-game settings area"
+            },
+            {
+              "label": "Warning",
+              "detail": "Any site listing working codes right now is outdated or fabricated"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Clone Builders Wiki Official Links",
+          "description": "Verified places to find the game, developer news, and community updates without wading through fan-made copies.",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Roblox",
+              "detail": "The official Clone Builders game page for playing and server info"
+            },
+            {
+              "label": "Dev Group",
+              "detail": "Synoptic Interactive's Roblox group for announcements"
+            },
+            {
+              "label": "Gameplay",
+              "detail": "Community gameplay videos showing real builds in action"
             }
           ]
         }
@@ -304,23 +368,23 @@
       "items": [
         {
           "question": "What is Clone Builders?",
-          "answer": "Clone Builders is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Clone Builders is a free experimental building sandbox on Roblox from Synoptic Interactive. You hand an idea to a crew of NPC clones, and a structured building system places, resizes, moves, and assembles the parts for you."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do clones decide what to build in Clone Builders?",
+          "answer": "Clone Builders clones do not use AI. They follow a structured part system, so the clarity of your request decides the result: short, focused prompts land far better than long, complicated ones."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Are there working Clone Builders codes?",
+          "answer": "No. As of September 2026, Clone Builders has not released a single redeemable code, so any list claiming working Clone Builders codes is outdated or fabricated. This wiki tracks the real status."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What should beginners build first in Clone Builders?",
+          "answer": "Start with a compact, single-clone structure and keep travel paths short. Once that loop is stable, scale up to multi-part projects and larger clone crews in Clone Builders."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Can you build with friends in Clone Builders?",
+          "answer": "Yes. Clone Builders supports shared building in servers of up to 15 players, and private servers let you and your partners build without interruptions."
         }
       ]
     },
